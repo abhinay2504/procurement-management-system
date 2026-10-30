@@ -1,5 +1,5 @@
 
-
+#!/usr/bin/env python3
 """Integration smoke test for create -> approve -> RFQ -> quote -> award -> delivery."""
 import argparse, shutil, tempfile, json, sqlite3, sys
 from pathlib import Path

@@ -1,5 +1,5 @@
 
-
+#!/usr/bin/env python3
 """Transactional procurement workflow service backed by the generated SQLite schema."""
 from __future__ import annotations
 import argparse, sqlite3, json

@@ -1,5 +1,5 @@
 
-
+#!/usr/bin/env python3
 """Deterministic end-to-end synthetic procurement data generator.
 
 Examples:

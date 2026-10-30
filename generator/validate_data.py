@@ -1,5 +1,5 @@
 
-
+#!/usr/bin/env python3
 """Validate FK integrity, exact volumes, reconciliation and lifecycle consistency."""
 import argparse, sqlite3, json
 from pathlib import Path
