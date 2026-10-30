@@ -1,5 +1,5 @@
 
-#!/usr/bin/env python3
+
 """Transactional procurement workflow service backed by the generated SQLite schema."""
 from __future__ import annotations
 import argparse, sqlite3, json
@@ -204,7 +204,7 @@ class ProcurementService:
             (rfq_id,rfq["currency"],now)).fetchone()[0]
         if cheapest is not None and float(q["landed_total"])>float(cheapest)+.01 and not rationale.strip():
             raise ValueError("Non-cheapest award requires a documented rationale")
-        # Budget reservation must be affordable before PO creation.
+
         budget=cur.execute("SELECT b.* FROM Budget b WHERE b.budget_id=?",(pr["budget_id"],)).fetchone()
         reserved=cur.execute("SELECT COALESCE(SUM(amount),0) FROM BudgetTransaction WHERE budget_id=?",
                              (pr["budget_id"],)).fetchone()[0]
@@ -234,7 +234,6 @@ class ProcurementService:
         self.con.commit()
         return {"purchase_order_id":po_id,"po_total":total,"supplier_id":q["supplier_id"],
                 "quote_id":quote_id,"budget_reserved":total,"supplier_comparison":comparison}
-
 
     def create_single_source_po(self, purchase_request_id, supplier_id, unit_prices,
                                 rationale, tax_amount=0, freight_amount=0, now=None):

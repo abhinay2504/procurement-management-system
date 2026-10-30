@@ -1,5 +1,5 @@
 
-#!/usr/bin/env python3
+
 """Regenerate the requested scale twice with the same seed and compare every file hash."""
 import argparse, hashlib, json, subprocess, sys, tempfile
 from pathlib import Path

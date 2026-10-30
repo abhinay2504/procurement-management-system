@@ -1,5 +1,5 @@
 
-#!/usr/bin/env python3
+
 """Integration smoke test for create -> approve -> RFQ -> quote -> award -> delivery."""
 import argparse, shutil, tempfile, json, sqlite3, sys
 from pathlib import Path
@@ -40,7 +40,7 @@ def main():
             assert delivery["delivery_status"]=="DELIVERED",delivery
             assert delivery["outstanding_quantity"]==0
             assert budget["reserved"]>0
-            # Exercise the documented single-source exception path on a separate approved request.
+
             pr2=svc.create_request("REQ-0003","BUD-003-2026",
                 [{"item_description":"Specialized adapter","category":"IT_HARDWARE",
                   "quantity":1,"estimated_unit_price":10000}],
@@ -53,7 +53,7 @@ def main():
                 {line2:10000},"OEM compatibility; no equivalent approved alternative",0,150,
                 "2026-10-30T15:20:00")
             assert single["sourcing_type"]=="SINGLE_SOURCE"
-            # The synthetic over-budget department must reject a new commitment.
+
             pr3=svc.create_request("REQ-0002","BUD-002-2026",
                 [{"item_description":"Low-cost accessory","category":"IT_HARDWARE",
                   "quantity":1,"estimated_unit_price":1000}],

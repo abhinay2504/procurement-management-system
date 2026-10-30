@@ -1,5 +1,5 @@
 
-#!/usr/bin/env python3
+
 """Deterministic end-to-end synthetic procurement data generator.
 
 Examples:
@@ -86,7 +86,7 @@ def make_data(seed, scale):
             requester=requesters[119 % len(requesters)]; dept_id=requester["department_id"]
             if i==121: duplicate_of="PR-2026-000120"
         if i in (40,41) and n["requests"]>=41:
-            # Paired purchases with same requester/category within a short period.
+
             item,cat,qty,est="Monitor","IT_HARDWARE",1,18000.00
             requester=requesters[39 % len(requesters)]; dept_id=requester["department_id"]
             split_group="SPLIT-2026-0001"
@@ -99,7 +99,7 @@ def make_data(seed, scale):
             ["DEPARTMENT_MANAGER","FINANCE","EXECUTIVE"])
         request_status="APPROVED" if i<=min(900,n["pos"]) else ("REJECTED" if i%9==0 else "SUBMITTED")
         if i==6 and n["pos"]>=6:
-            request_status="SUBMITTED"  # intentionally pending approval; PO exception injected later
+            request_status="SUBMITTED"
         if i==122 and n["requests"]>=122:
             request_status="APPROVED"
         pr_id=f"PR-2026-{i:06d}"
@@ -147,7 +147,7 @@ def make_data(seed, scale):
         rfqs.append({"rfq_id":rfq_id,"purchase_request_id":pr["purchase_request_id"],
             "issue_date":iso(issue_day,10),"closing_date":iso(issue_day+timedelta(days=14),17),
             "currency":"INR","sourcing_type":"COMPETITIVE","status":"AWARDED","minimum_quote_count":3})
-        # choose distinct suppliers; force inactive supplier in RFQ 4 anomaly
+
         selected_suppliers=rng.sample(suppliers,3)
         if i==4 and len(suppliers)>=17:
             selected_suppliers=[suppliers[16]]+[x for x in selected_suppliers if x["supplier_id"]!="SUP-017"][:2]
@@ -159,7 +159,7 @@ def make_data(seed, scale):
             tax=round(subtotal*.18,2); freight=round(subtotal*rng.uniform(.005,.03),2)
             lead=rng.randint(5,35); valid=issue_day+timedelta(days=21)
             currency="USD" if i==7 and j==3 else "INR"
-            if i==2 and j==1: valid=issue_day+timedelta(days=5) # expired before award
+            if i==2 and j==1: valid=issue_day+timedelta(days=5)
             qid=f"QUO-{sup['supplier_code']}-2026-{((i-1)*3+j):06d}"
             quotes.append({"quote_id":qid,"rfq_id":rfq_id,"supplier_id":sup["supplier_id"],
                 "quote_date":iso(issue_day+timedelta(days=2),14),"valid_until":iso(valid,23),
@@ -175,7 +175,7 @@ def make_data(seed, scale):
                 quote_lines.append({"quote_line_id":f"QL-{i:04d}-{j:02d}-{ln:02d}","quote_id":qid,
                     "request_line_id":x["request_line_id"],"quantity":x["quantity"],
                     "unit_price":qline_total/x["quantity"],"line_total":qline_total})
-        # Select cheapest valid, active, INR quote, except the labelled non-cheapest case.
+
         group=[q for q in quotes if q["rfq_id"]==rfq_id]
         eligible=[q for q in group if q["currency"]=="INR" and q["valid_until"]>=iso(issue_day+timedelta(days=15),0)
                   and next(s for s in suppliers if s["supplier_id"]==q["supplier_id"])["is_active"]]
@@ -184,9 +184,9 @@ def make_data(seed, scale):
         selected=eligible[0]
         if i==3 and len(eligible)>1:
             selected=eligible[-1]
-            selected["award_rationale"]=""  # deliberate unexplained non-cheapest award
+            selected["award_rationale"]=""
         if i==2:
-            # Inject expired quote award; use quote #1, whose validity ended before award.
+
             selected=group[0]
         if i==4 and len(suppliers)>=17:
             selected=next(q for q in group if q["supplier_id"]=="SUP-017")
@@ -199,7 +199,7 @@ def make_data(seed, scale):
                 q["status"]="REJECTED"
 
     pos=[]; po_lines=[]; deliveries=[]; budget_transactions=[]
-    # Full volume has 900 POs. 500 quote-backed awards + 400 documented single-source awards.
+
     for i in range(1,min(n["pos"],n["requests"])+1):
         pr=requests[i-1]; po_id=f"PO-2026-{i:06d}"
         rfq_id=""; quote_id=""; supplier_id=""; rationale=""
@@ -222,7 +222,7 @@ def make_data(seed, scale):
             approval_status="NOT_APPROVED"
             rationale="Injected control failure: PO issued while required approvals remain pending"
         if i==122 and n["pos"]>=122:
-            # Single labelled over-budget commitment; other budgets have sufficient allocation.
+
             subtotal=150000000.00; tax=0.0; freight=0.0
             rationale="Budget overrun test case; commitment exceeds approved departmental allocation"
             quote_id=""; rfq_id=""
@@ -281,7 +281,6 @@ def make_data(seed, scale):
             "entity_id":po_id,"action":"ISSUE","actor_id":"SYSTEM-PROCUREMENT",
             "event_time":po_date,"details":"PO issuance recorded"})
 
-    # Ground truth: separate from all model/input feature tables.
     gt=[]
     def label(case, entity_type, entity_id, issue, severity, expected, rule):
         gt.append({"case_id":f"GT-{case:03d}","entity_type":entity_type,"entity_id":entity_id,
@@ -373,7 +372,7 @@ def evaluate(tables, gt):
         issues.append({"rule_id":code,"entity_type":entity,"entity_id":entity_id,
                        "detail":detail,"is_known_injected_exception":expected})
     gt_pairs={(g["entity_type"],g["entity_id"]):g["issue_type"] for g in gt}
-    # approval matrix completeness
+
     for pr in reqs:
         amount=float(pr["estimated_total"])
         expected=["DEPARTMENT_MANAGER"] if amount<25000 else (
@@ -385,7 +384,7 @@ def evaluate(tables, gt):
                 if pr["status"]=="APPROVED":
                     issue("APPROVAL_REQUIRED","PURCHASE_REQUEST",pr["purchase_request_id"],
                           f"Missing approved step {role}",("PURCHASE_REQUEST",pr["purchase_request_id"]) in gt_pairs)
-    # quote eligibility, award rationale, currency, supplier status
+
     for q in quotes:
         rfq=next(x for x in tables["RFQ"] if x["rfq_id"]==q["rfq_id"])
         if q["currency"]!=rfq["currency"]:
@@ -406,7 +405,7 @@ def evaluate(tables, gt):
                 if float(q["landed_total"])>cheapest+.01 and not q["award_rationale"]:
                     issue("AWARD_RATIONALE","SUPPLIER_QUOTE",q["quote_id"],"Non-cheapest eligible award lacks rationale",
                           ("SUPPLIER_QUOTE",q["quote_id"]) in gt_pairs)
-    # PO controls and quote-to-PO reconciliation
+
     for po in pos:
         if po["status"]=="ISSUED" and po["approval_status"]!="APPROVED":
             issue("PO_WITHOUT_APPROVAL","PURCHASE_ORDER",po["purchase_order_id"],"Issued PO is not approved",
@@ -419,7 +418,7 @@ def evaluate(tables, gt):
         if not suppliers[po["supplier_id"]]["is_active"]:
             issue("PO_INACTIVE_SUPPLIER","PURCHASE_ORDER",po["purchase_order_id"],"PO supplier inactive",
                   ("SUPPLIER",po["supplier_id"]) in gt_pairs)
-    # Budget commitments
+
     for budget_id,spent in budget_used.items():
         allocation=float(budgets[budget_id]["allocated_amount"])
         if spent>allocation:
@@ -433,7 +432,7 @@ def evaluate(tables, gt):
             else:
                 issue("BUDGET_OVERRUN","BUDGET",budget_id,
                       f"{spent:.2f} committed > {allocation:.2f} allocated",False)
-    # duplicate fingerprints
+
     seen={}
     for pr in reqs:
         lines=[x for x in tables["RequestLine"] if x["purchase_request_id"]==pr["purchase_request_id"]]
@@ -444,7 +443,7 @@ def evaluate(tables, gt):
                       f"Duplicate fingerprint of {seen[key]}",("PURCHASE_REQUEST",pr["purchase_request_id"]) in gt_pairs)
             else:
                 seen[key]=pr["purchase_request_id"]
-    # delivery quantity rollup
+
     for po in pos:
         ds=[d for d in tables["Delivery"] if d["purchase_order_id"]==po["purchase_order_id"]]
         if ds:
@@ -482,7 +481,7 @@ def validate(tables, gt, scale):
         rows=tables[table]
         add(f"{table}_volume",len(rows)==count,f"{len(rows)} / {count}")
         add(f"{table}_pk_unique",len({r[key] for r in rows})==len(rows),f"{key} uniqueness")
-    # Referential integrity checks, including polymorphic audit/event refs
+
     keys={t:{r[list(r)[0]] for r in rows} for t,rows in tables.items() if rows}
     fk_specs=[("Requester","department_id","Department"),("Budget","department_id","Department"),
       ("PurchaseRequest","requester_id","Requester"),("PurchaseRequest","department_id","Department"),
@@ -584,7 +583,7 @@ def run(seed, scale, output):
         "generated_date":"2026-10-30","provenance":"Fully synthetic; no external data",
         "row_counts":{k:len(v) for k,v in tables.items()},"ground_truth_cases":len(gt)}
     (out/"reproducibility"/"source_manifest.json").write_text(json.dumps(manifest,indent=2)+"\n")
-    # Stable checksums of every generated payload except checksum file itself.
+
     checksums={}
     for p in sorted(out.rglob("*")):
         if p.is_file() and p.name!="checksums.json":

@@ -1,5 +1,5 @@
 
-#!/usr/bin/env python3
+
 """Evaluate quote competitiveness, supplier selection and budget utilization from SQLite."""
 import argparse, csv, json, sqlite3
 from pathlib import Path
