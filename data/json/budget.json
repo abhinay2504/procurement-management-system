@@ -1,0 +1,110 @@
+[
+  {
+    "budget_id": "BUD-001-2026",
+    "department_id": "DEPT-001",
+    "fiscal_year": 2026,
+    "currency": "INR",
+    "allocated_amount": 100000000.0,
+    "effective_from": "2026-01-01",
+    "effective_to": "2026-12-31"
+  },
+  {
+    "budget_id": "BUD-002-2026",
+    "department_id": "DEPT-002",
+    "fiscal_year": 2026,
+    "currency": "INR",
+    "allocated_amount": 100000000.0,
+    "effective_from": "2026-01-01",
+    "effective_to": "2026-12-31"
+  },
+  {
+    "budget_id": "BUD-003-2026",
+    "department_id": "DEPT-003",
+    "fiscal_year": 2026,
+    "currency": "INR",
+    "allocated_amount": 100000000.0,
+    "effective_from": "2026-01-01",
+    "effective_to": "2026-12-31"
+  },
+  {
+    "budget_id": "BUD-004-2026",
+    "department_id": "DEPT-004",
+    "fiscal_year": 2026,
+    "currency": "INR",
+    "allocated_amount": 100000000.0,
+    "effective_from": "2026-01-01",
+    "effective_to": "2026-12-31"
+  },
+  {
+    "budget_id": "BUD-005-2026",
+    "department_id": "DEPT-005",
+    "fiscal_year": 2026,
+    "currency": "INR",
+    "allocated_amount": 100000000.0,
+    "effective_from": "2026-01-01",
+    "effective_to": "2026-12-31"
+  },
+  {
+    "budget_id": "BUD-006-2026",
+    "department_id": "DEPT-006",
+    "fiscal_year": 2026,
+    "currency": "INR",
+    "allocated_amount": 100000000.0,
+    "effective_from": "2026-01-01",
+    "effective_to": "2026-12-31"
+  },
+  {
+    "budget_id": "BUD-007-2026",
+    "department_id": "DEPT-007",
+    "fiscal_year": 2026,
+    "currency": "INR",
+    "allocated_amount": 100000000.0,
+    "effective_from": "2026-01-01",
+    "effective_to": "2026-12-31"
+  },
+  {
+    "budget_id": "BUD-008-2026",
+    "department_id": "DEPT-008",
+    "fiscal_year": 2026,
+    "currency": "INR",
+    "allocated_amount": 100000000.0,
+    "effective_from": "2026-01-01",
+    "effective_to": "2026-12-31"
+  },
+  {
+    "budget_id": "BUD-009-2026",
+    "department_id": "DEPT-009",
+    "fiscal_year": 2026,
+    "currency": "INR",
+    "allocated_amount": 100000000.0,
+    "effective_from": "2026-01-01",
+    "effective_to": "2026-12-31"
+  },
+  {
+    "budget_id": "BUD-010-2026",
+    "department_id": "DEPT-010",
+    "fiscal_year": 2026,
+    "currency": "INR",
+    "allocated_amount": 100000000.0,
+    "effective_from": "2026-01-01",
+    "effective_to": "2026-12-31"
+  },
+  {
+    "budget_id": "BUD-011-2026",
+    "department_id": "DEPT-011",
+    "fiscal_year": 2026,
+    "currency": "INR",
+    "allocated_amount": 100000000.0,
+    "effective_from": "2026-01-01",
+    "effective_to": "2026-12-31"
+  },
+  {
+    "budget_id": "BUD-012-2026",
+    "department_id": "DEPT-012",
+    "fiscal_year": 2026,
+    "currency": "INR",
+    "allocated_amount": 100000000.0,
+    "effective_from": "2026-01-01",
+    "effective_to": "2026-12-31"
+  }
+]

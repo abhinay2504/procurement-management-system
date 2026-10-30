@@ -1,0 +1,13 @@
+department_id,department_name,cost_center,is_active,effective_from,effective_to
+DEPT-001,IT,CC-1001,True,2026-01-01,
+DEPT-002,Finance,CC-1002,True,2026-01-01,
+DEPT-003,Human Resources,CC-1003,True,2026-01-01,
+DEPT-004,Operations,CC-1004,True,2026-01-01,
+DEPT-005,Marketing,CC-1005,True,2026-01-01,
+DEPT-006,Sales,CC-1006,True,2026-01-01,
+DEPT-007,Research,CC-1007,True,2026-01-01,
+DEPT-008,Legal,CC-1008,True,2026-01-01,
+DEPT-009,Facilities,CC-1009,True,2026-01-01,
+DEPT-010,Customer Support,CC-1010,True,2026-01-01,
+DEPT-011,Security,CC-1011,True,2026-01-01,
+DEPT-012,Procurement,CC-1012,True,2026-01-01,

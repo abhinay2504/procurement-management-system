@@ -1,0 +1,8 @@
+case_id,entity_type,entity_id,issue_type,severity,expected_label,rule
+GT-001,PURCHASE_ORDER,PO-2026-000006,PO_ISSUED_WITHOUT_APPROVAL,CRITICAL,CONTROL_FAILURE,A PO cannot be ISSUED unless all approval steps are APPROVED
+GT-002,SUPPLIER_QUOTE,QUO-S119-2026-000004,QUOTE_EXPIRED_BEFORE_AWARD,HIGH,INVALID_AWARD,Award date must be on or before quote valid_until
+GT-003,SUPPLIER_QUOTE,QUO-S029-2026-000008,SELECTED_NOT_CHEAPEST,MEDIUM,RATIONALE_REQUIRED,Selected quote must be cheapest or have a documented decision rationale
+GT-004,SUPPLIER,SUP-017,SUPPLIER_INACTIVE_AT_AWARD,HIGH,SUPPLIER_STATUS_EXCEPTION,Supplier must be active at award date unless an approved exception exists
+GT-005,PURCHASE_ORDER,PO-2026-000122,BUDGET_OVERRUN,HIGH,OVER_BUDGET,Cumulative reservations must not exceed budget allocation
+GT-006,PURCHASE_REQUEST,PR-2026-000121,DUPLICATE_REQUEST,MEDIUM,DUPLICATE,Duplicate requester/item/category/quantity/date fingerprint
+GT-007,SUPPLIER_QUOTE,QUO-S032-2026-000021,QUOTE_CURRENCY_MISMATCH,HIGH,CURRENCY_MISMATCH,Quote currency must match RFQ currency or have an explicit FX conversion

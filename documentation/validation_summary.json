@@ -1,0 +1,262 @@
+{
+  "seed": 20261022,
+  "scale": "full",
+  "checks": [
+    {
+      "check": "Requester_volume",
+      "status": "PASS",
+      "detail": "300 / 300"
+    },
+    {
+      "check": "Requester_pk_unique",
+      "status": "PASS",
+      "detail": "requester_id uniqueness"
+    },
+    {
+      "check": "Supplier_volume",
+      "status": "PASS",
+      "detail": "120 / 120"
+    },
+    {
+      "check": "Supplier_pk_unique",
+      "status": "PASS",
+      "detail": "supplier_id uniqueness"
+    },
+    {
+      "check": "PurchaseRequest_volume",
+      "status": "PASS",
+      "detail": "1200 / 1200"
+    },
+    {
+      "check": "PurchaseRequest_pk_unique",
+      "status": "PASS",
+      "detail": "purchase_request_id uniqueness"
+    },
+    {
+      "check": "RFQ_volume",
+      "status": "PASS",
+      "detail": "500 / 500"
+    },
+    {
+      "check": "RFQ_pk_unique",
+      "status": "PASS",
+      "detail": "rfq_id uniqueness"
+    },
+    {
+      "check": "SupplierQuote_volume",
+      "status": "PASS",
+      "detail": "1500 / 1500"
+    },
+    {
+      "check": "SupplierQuote_pk_unique",
+      "status": "PASS",
+      "detail": "quote_id uniqueness"
+    },
+    {
+      "check": "PurchaseOrder_volume",
+      "status": "PASS",
+      "detail": "900 / 900"
+    },
+    {
+      "check": "PurchaseOrder_pk_unique",
+      "status": "PASS",
+      "detail": "purchase_order_id uniqueness"
+    },
+    {
+      "check": "FK_Requester_department_id",
+      "status": "PASS",
+      "detail": "Requester.department_id -> Department"
+    },
+    {
+      "check": "FK_Budget_department_id",
+      "status": "PASS",
+      "detail": "Budget.department_id -> Department"
+    },
+    {
+      "check": "FK_PurchaseRequest_requester_id",
+      "status": "PASS",
+      "detail": "PurchaseRequest.requester_id -> Requester"
+    },
+    {
+      "check": "FK_PurchaseRequest_department_id",
+      "status": "PASS",
+      "detail": "PurchaseRequest.department_id -> Department"
+    },
+    {
+      "check": "FK_PurchaseRequest_budget_id",
+      "status": "PASS",
+      "detail": "PurchaseRequest.budget_id -> Budget"
+    },
+    {
+      "check": "FK_RequestLine_purchase_request_id",
+      "status": "PASS",
+      "detail": "RequestLine.purchase_request_id -> PurchaseRequest"
+    },
+    {
+      "check": "FK_RFQ_purchase_request_id",
+      "status": "PASS",
+      "detail": "RFQ.purchase_request_id -> PurchaseRequest"
+    },
+    {
+      "check": "FK_RFQSupplier_rfq_id",
+      "status": "PASS",
+      "detail": "RFQSupplier.rfq_id -> RFQ"
+    },
+    {
+      "check": "FK_RFQSupplier_supplier_id",
+      "status": "PASS",
+      "detail": "RFQSupplier.supplier_id -> Supplier"
+    },
+    {
+      "check": "FK_SupplierQuote_rfq_id",
+      "status": "PASS",
+      "detail": "SupplierQuote.rfq_id -> RFQ"
+    },
+    {
+      "check": "FK_SupplierQuote_supplier_id",
+      "status": "PASS",
+      "detail": "SupplierQuote.supplier_id -> Supplier"
+    },
+    {
+      "check": "FK_QuoteLine_quote_id",
+      "status": "PASS",
+      "detail": "QuoteLine.quote_id -> SupplierQuote"
+    },
+    {
+      "check": "FK_QuoteLine_request_line_id",
+      "status": "PASS",
+      "detail": "QuoteLine.request_line_id -> RequestLine"
+    },
+    {
+      "check": "FK_Approval_purchase_request_id",
+      "status": "PASS",
+      "detail": "Approval.purchase_request_id -> PurchaseRequest"
+    },
+    {
+      "check": "FK_PurchaseOrder_purchase_request_id",
+      "status": "PASS",
+      "detail": "PurchaseOrder.purchase_request_id -> PurchaseRequest"
+    },
+    {
+      "check": "FK_PurchaseOrder_supplier_id",
+      "status": "PASS",
+      "detail": "PurchaseOrder.supplier_id -> Supplier"
+    },
+    {
+      "check": "FK_PurchaseOrderLine_purchase_order_id",
+      "status": "PASS",
+      "detail": "PurchaseOrderLine.purchase_order_id -> PurchaseOrder"
+    },
+    {
+      "check": "FK_PurchaseOrderLine_request_line_id",
+      "status": "PASS",
+      "detail": "PurchaseOrderLine.request_line_id -> RequestLine"
+    },
+    {
+      "check": "FK_Delivery_purchase_order_id",
+      "status": "PASS",
+      "detail": "Delivery.purchase_order_id -> PurchaseOrder"
+    },
+    {
+      "check": "FK_Delivery_supplier_id",
+      "status": "PASS",
+      "detail": "Delivery.supplier_id -> Supplier"
+    },
+    {
+      "check": "FK_BudgetTransaction_budget_id",
+      "status": "PASS",
+      "detail": "BudgetTransaction.budget_id -> Budget"
+    },
+    {
+      "check": "FK_BudgetTransaction_purchase_order_id",
+      "status": "PASS",
+      "detail": "BudgetTransaction.purchase_order_id -> PurchaseOrder"
+    },
+    {
+      "check": "quote_landed_cost_arithmetic",
+      "status": "PASS",
+      "detail": "landed_total = subtotal + tax + freight"
+    },
+    {
+      "check": "po_total_arithmetic",
+      "status": "PASS",
+      "detail": "po_total = subtotal + tax + freight"
+    },
+    {
+      "check": "po_line_arithmetic",
+      "status": "PASS",
+      "detail": "PO line total = unit price x quantity"
+    },
+    {
+      "check": "quote_line_arithmetic",
+      "status": "PASS",
+      "detail": "Quote line total = unit price x quantity"
+    },
+    {
+      "check": "po_line_subtotal_reconciliation",
+      "status": "PASS",
+      "detail": "Sum of PO lines = PO subtotal"
+    },
+    {
+      "check": "po_awarded_quote_line_reconciliation",
+      "status": "PASS",
+      "detail": "Awarded quote lines match PO lines by request line, quantity and line total"
+    },
+    {
+      "check": "budget_reservation_reconciliation",
+      "status": "PASS",
+      "detail": "Exactly one reservation per PO; amount and budget match PO/request"
+    },
+    {
+      "check": "date_ordering",
+      "status": "PASS",
+      "detail": "Request, RFQ, quote, PO and delivery dates follow lifecycle order"
+    },
+    {
+      "check": "delivery_quantity_bounds",
+      "status": "PASS",
+      "detail": "Each delivery receipt is within its per-event ordered quantity"
+    },
+    {
+      "check": "competitive_quote_count",
+      "status": "PASS",
+      "detail": "At least three quotes per competitive RFQ"
+    },
+    {
+      "check": "ground_truth_separation",
+      "status": "PASS",
+      "detail": "Labels only appear in separate ground_truth files"
+    },
+    {
+      "check": "all_ground_truth_types_detectable",
+      "status": "PASS",
+      "detail": "Missing: "
+    },
+    {
+      "check": "sqlite_foreign_key_check",
+      "status": "PASS",
+      "detail": "0 violations"
+    }
+  ],
+  "passed": 47,
+  "failed": 0,
+  "metrics": {
+    "ground_truth_cases": 7,
+    "detected_issue_types": [
+      "BUDGET_OVERRUN",
+      "DUPLICATE_REQUEST",
+      "PO_ISSUED_WITHOUT_APPROVAL",
+      "QUOTE_CURRENCY_MISMATCH",
+      "QUOTE_EXPIRED_BEFORE_AWARD",
+      "SELECTED_NOT_CHEAPEST",
+      "SUPPLIER_INACTIVE_AT_AWARD"
+    ],
+    "missing_ground_truth_issue_types": [],
+    "known_exception_findings": 8,
+    "unclassified_findings": 0,
+    "budget_allocated_total": 1200000000.0,
+    "budget_committed_total": 320955515.52,
+    "purchase_order_total": 320955515.52,
+    "partial_delivery_events": 336
+  }
+}

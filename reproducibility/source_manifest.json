@@ -1,0 +1,27 @@
+{
+  "project": "Synthetic Procurement Management System",
+  "seed": 20261022,
+  "scale": "full",
+  "generated_date": "2026-10-30",
+  "provenance": "Fully synthetic; no external data",
+  "row_counts": {
+    "Department": 12,
+    "Requester": 300,
+    "Budget": 12,
+    "Supplier": 120,
+    "PurchaseRequest": 1200,
+    "RequestLine": 1270,
+    "RFQ": 500,
+    "RFQSupplier": 1500,
+    "SupplierQuote": 1500,
+    "QuoteLine": 1587,
+    "Approval": 2842,
+    "PurchaseOrder": 900,
+    "PurchaseOrderLine": 952,
+    "Delivery": 1080,
+    "BudgetTransaction": 900,
+    "StatusEvent": 2100,
+    "AuditLog": 2100
+  },
+  "ground_truth_cases": 7
+}

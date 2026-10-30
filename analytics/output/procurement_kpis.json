@@ -1,0 +1,14 @@
+{
+  "purchase_requests": 1200,
+  "rfqs": 500,
+  "purchase_orders": 900,
+  "total_po_spend": 320955515.52,
+  "quote_score_rows": 1462,
+  "awarded_quotes_scored": 498,
+  "awards_at_lowest_landed_cost": 497,
+  "unexplained_non_lowest_awards": 1,
+  "budget_allocation_total": 1200000000.0,
+  "budget_commitment_total": 320955515.52,
+  "budget_available_total": 879044484.48,
+  "over_budget_departments": 1
+}

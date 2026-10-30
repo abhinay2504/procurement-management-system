@@ -1,0 +1,58 @@
+[
+  {
+    "rule_id": "QUOTE_EXPIRED",
+    "entity_type": "SUPPLIER_QUOTE",
+    "entity_id": "QUO-S119-2026-000004",
+    "detail": "Selected quote expired before RFQ close",
+    "is_known_injected_exception": true
+  },
+  {
+    "rule_id": "AWARD_RATIONALE",
+    "entity_type": "SUPPLIER_QUOTE",
+    "entity_id": "QUO-S029-2026-000008",
+    "detail": "Non-cheapest eligible award lacks rationale",
+    "is_known_injected_exception": true
+  },
+  {
+    "rule_id": "INACTIVE_SUPPLIER",
+    "entity_type": "SUPPLIER",
+    "entity_id": "SUP-017",
+    "detail": "Selected supplier inactive",
+    "is_known_injected_exception": true
+  },
+  {
+    "rule_id": "CURRENCY_MISMATCH",
+    "entity_type": "SUPPLIER_QUOTE",
+    "entity_id": "QUO-S032-2026-000021",
+    "detail": "Quote currency differs from RFQ",
+    "is_known_injected_exception": true
+  },
+  {
+    "rule_id": "PO_INACTIVE_SUPPLIER",
+    "entity_type": "PURCHASE_ORDER",
+    "entity_id": "PO-2026-000004",
+    "detail": "PO supplier inactive",
+    "is_known_injected_exception": true
+  },
+  {
+    "rule_id": "PO_WITHOUT_APPROVAL",
+    "entity_type": "PURCHASE_ORDER",
+    "entity_id": "PO-2026-000006",
+    "detail": "Issued PO is not approved",
+    "is_known_injected_exception": true
+  },
+  {
+    "rule_id": "BUDGET_OVERRUN",
+    "entity_type": "PURCHASE_ORDER",
+    "entity_id": "PO-2026-000122",
+    "detail": "Budget BUD-002-2026: 162905837.21 committed > 100000000.00 allocated",
+    "is_known_injected_exception": true
+  },
+  {
+    "rule_id": "DUPLICATE_REQUEST",
+    "entity_type": "PURCHASE_REQUEST",
+    "entity_id": "PR-2026-000121",
+    "detail": "Duplicate fingerprint of PR-2026-000120",
+    "is_known_injected_exception": true
+  }
+]

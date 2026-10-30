@@ -1,0 +1,9 @@
+rule_id,entity_type,entity_id,detail,is_known_injected_exception
+QUOTE_EXPIRED,SUPPLIER_QUOTE,QUO-S119-2026-000004,Selected quote expired before RFQ close,True
+AWARD_RATIONALE,SUPPLIER_QUOTE,QUO-S029-2026-000008,Non-cheapest eligible award lacks rationale,True
+INACTIVE_SUPPLIER,SUPPLIER,SUP-017,Selected supplier inactive,True
+CURRENCY_MISMATCH,SUPPLIER_QUOTE,QUO-S032-2026-000021,Quote currency differs from RFQ,True
+PO_INACTIVE_SUPPLIER,PURCHASE_ORDER,PO-2026-000004,PO supplier inactive,True
+PO_WITHOUT_APPROVAL,PURCHASE_ORDER,PO-2026-000006,Issued PO is not approved,True
+BUDGET_OVERRUN,PURCHASE_ORDER,PO-2026-000122,Budget BUD-002-2026: 162905837.21 committed > 100000000.00 allocated,True
+DUPLICATE_REQUEST,PURCHASE_REQUEST,PR-2026-000121,Duplicate fingerprint of PR-2026-000120,True

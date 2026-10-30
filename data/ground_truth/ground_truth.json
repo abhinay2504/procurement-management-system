@@ -1,0 +1,65 @@
+[
+  {
+    "case_id": "GT-001",
+    "entity_type": "PURCHASE_ORDER",
+    "entity_id": "PO-2026-000006",
+    "issue_type": "PO_ISSUED_WITHOUT_APPROVAL",
+    "severity": "CRITICAL",
+    "expected_label": "CONTROL_FAILURE",
+    "rule": "A PO cannot be ISSUED unless all approval steps are APPROVED"
+  },
+  {
+    "case_id": "GT-002",
+    "entity_type": "SUPPLIER_QUOTE",
+    "entity_id": "QUO-S119-2026-000004",
+    "issue_type": "QUOTE_EXPIRED_BEFORE_AWARD",
+    "severity": "HIGH",
+    "expected_label": "INVALID_AWARD",
+    "rule": "Award date must be on or before quote valid_until"
+  },
+  {
+    "case_id": "GT-003",
+    "entity_type": "SUPPLIER_QUOTE",
+    "entity_id": "QUO-S029-2026-000008",
+    "issue_type": "SELECTED_NOT_CHEAPEST",
+    "severity": "MEDIUM",
+    "expected_label": "RATIONALE_REQUIRED",
+    "rule": "Selected quote must be cheapest or have a documented decision rationale"
+  },
+  {
+    "case_id": "GT-004",
+    "entity_type": "SUPPLIER",
+    "entity_id": "SUP-017",
+    "issue_type": "SUPPLIER_INACTIVE_AT_AWARD",
+    "severity": "HIGH",
+    "expected_label": "SUPPLIER_STATUS_EXCEPTION",
+    "rule": "Supplier must be active at award date unless an approved exception exists"
+  },
+  {
+    "case_id": "GT-005",
+    "entity_type": "PURCHASE_ORDER",
+    "entity_id": "PO-2026-000122",
+    "issue_type": "BUDGET_OVERRUN",
+    "severity": "HIGH",
+    "expected_label": "OVER_BUDGET",
+    "rule": "Cumulative reservations must not exceed budget allocation"
+  },
+  {
+    "case_id": "GT-006",
+    "entity_type": "PURCHASE_REQUEST",
+    "entity_id": "PR-2026-000121",
+    "issue_type": "DUPLICATE_REQUEST",
+    "severity": "MEDIUM",
+    "expected_label": "DUPLICATE",
+    "rule": "Duplicate requester/item/category/quantity/date fingerprint"
+  },
+  {
+    "case_id": "GT-007",
+    "entity_type": "SUPPLIER_QUOTE",
+    "entity_id": "QUO-S032-2026-000021",
+    "issue_type": "QUOTE_CURRENCY_MISMATCH",
+    "severity": "HIGH",
+    "expected_label": "CURRENCY_MISMATCH",
+    "rule": "Quote currency must match RFQ currency or have an explicit FX conversion"
+  }
+]

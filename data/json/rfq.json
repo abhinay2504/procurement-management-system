@@ -1,0 +1,5002 @@
+[
+  {
+    "rfq_id": "RFQ-2026-000001",
+    "purchase_request_id": "PR-2026-000001",
+    "issue_date": "2026-08-08T10:00:00",
+    "closing_date": "2026-08-22T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000002",
+    "purchase_request_id": "PR-2026-000002",
+    "issue_date": "2026-03-03T10:00:00",
+    "closing_date": "2026-03-17T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000003",
+    "purchase_request_id": "PR-2026-000003",
+    "issue_date": "2026-02-03T10:00:00",
+    "closing_date": "2026-02-17T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000004",
+    "purchase_request_id": "PR-2026-000004",
+    "issue_date": "2026-07-10T10:00:00",
+    "closing_date": "2026-07-24T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000005",
+    "purchase_request_id": "PR-2026-000005",
+    "issue_date": "2026-02-26T10:00:00",
+    "closing_date": "2026-03-12T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000006",
+    "purchase_request_id": "PR-2026-000006",
+    "issue_date": "2026-04-06T10:00:00",
+    "closing_date": "2026-04-20T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000007",
+    "purchase_request_id": "PR-2026-000007",
+    "issue_date": "2026-02-07T10:00:00",
+    "closing_date": "2026-02-21T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000008",
+    "purchase_request_id": "PR-2026-000008",
+    "issue_date": "2026-04-29T10:00:00",
+    "closing_date": "2026-05-13T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000009",
+    "purchase_request_id": "PR-2026-000009",
+    "issue_date": "2026-05-13T10:00:00",
+    "closing_date": "2026-05-27T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000010",
+    "purchase_request_id": "PR-2026-000010",
+    "issue_date": "2026-08-05T10:00:00",
+    "closing_date": "2026-08-19T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000011",
+    "purchase_request_id": "PR-2026-000011",
+    "issue_date": "2026-02-11T10:00:00",
+    "closing_date": "2026-02-25T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000012",
+    "purchase_request_id": "PR-2026-000012",
+    "issue_date": "2026-08-08T10:00:00",
+    "closing_date": "2026-08-22T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000013",
+    "purchase_request_id": "PR-2026-000013",
+    "issue_date": "2026-07-14T10:00:00",
+    "closing_date": "2026-07-28T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000014",
+    "purchase_request_id": "PR-2026-000014",
+    "issue_date": "2026-02-14T10:00:00",
+    "closing_date": "2026-02-28T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000015",
+    "purchase_request_id": "PR-2026-000015",
+    "issue_date": "2026-02-15T10:00:00",
+    "closing_date": "2026-03-01T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000016",
+    "purchase_request_id": "PR-2026-000016",
+    "issue_date": "2026-05-04T10:00:00",
+    "closing_date": "2026-05-18T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000017",
+    "purchase_request_id": "PR-2026-000017",
+    "issue_date": "2026-04-05T10:00:00",
+    "closing_date": "2026-04-19T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000018",
+    "purchase_request_id": "PR-2026-000018",
+    "issue_date": "2026-02-18T10:00:00",
+    "closing_date": "2026-03-04T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000019",
+    "purchase_request_id": "PR-2026-000019",
+    "issue_date": "2026-03-20T10:00:00",
+    "closing_date": "2026-04-03T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000020",
+    "purchase_request_id": "PR-2026-000020",
+    "issue_date": "2026-07-08T10:00:00",
+    "closing_date": "2026-07-22T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000021",
+    "purchase_request_id": "PR-2026-000021",
+    "issue_date": "2026-02-21T10:00:00",
+    "closing_date": "2026-03-07T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000022",
+    "purchase_request_id": "PR-2026-000022",
+    "issue_date": "2026-03-17T10:00:00",
+    "closing_date": "2026-03-31T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000023",
+    "purchase_request_id": "PR-2026-000023",
+    "issue_date": "2026-07-07T10:00:00",
+    "closing_date": "2026-07-21T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000024",
+    "purchase_request_id": "PR-2026-000024",
+    "issue_date": "2026-05-13T10:00:00",
+    "closing_date": "2026-05-27T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000025",
+    "purchase_request_id": "PR-2026-000025",
+    "issue_date": "2026-07-07T10:00:00",
+    "closing_date": "2026-07-21T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000026",
+    "purchase_request_id": "PR-2026-000026",
+    "issue_date": "2026-06-15T10:00:00",
+    "closing_date": "2026-06-29T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000027",
+    "purchase_request_id": "PR-2026-000027",
+    "issue_date": "2026-03-14T10:00:00",
+    "closing_date": "2026-03-28T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000028",
+    "purchase_request_id": "PR-2026-000028",
+    "issue_date": "2026-05-13T10:00:00",
+    "closing_date": "2026-05-27T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000029",
+    "purchase_request_id": "PR-2026-000029",
+    "issue_date": "2026-07-04T10:00:00",
+    "closing_date": "2026-07-18T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000030",
+    "purchase_request_id": "PR-2026-000030",
+    "issue_date": "2026-03-02T10:00:00",
+    "closing_date": "2026-03-16T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000031",
+    "purchase_request_id": "PR-2026-000031",
+    "issue_date": "2026-04-27T10:00:00",
+    "closing_date": "2026-05-11T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000032",
+    "purchase_request_id": "PR-2026-000032",
+    "issue_date": "2026-07-23T10:00:00",
+    "closing_date": "2026-08-06T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000033",
+    "purchase_request_id": "PR-2026-000033",
+    "issue_date": "2026-06-23T10:00:00",
+    "closing_date": "2026-07-07T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000034",
+    "purchase_request_id": "PR-2026-000034",
+    "issue_date": "2026-08-03T10:00:00",
+    "closing_date": "2026-08-17T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000035",
+    "purchase_request_id": "PR-2026-000035",
+    "issue_date": "2026-03-07T10:00:00",
+    "closing_date": "2026-03-21T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000036",
+    "purchase_request_id": "PR-2026-000036",
+    "issue_date": "2026-06-06T10:00:00",
+    "closing_date": "2026-06-20T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000037",
+    "purchase_request_id": "PR-2026-000037",
+    "issue_date": "2026-03-09T10:00:00",
+    "closing_date": "2026-03-23T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000038",
+    "purchase_request_id": "PR-2026-000038",
+    "issue_date": "2026-03-23T10:00:00",
+    "closing_date": "2026-04-06T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000039",
+    "purchase_request_id": "PR-2026-000039",
+    "issue_date": "2026-03-11T10:00:00",
+    "closing_date": "2026-03-25T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000040",
+    "purchase_request_id": "PR-2026-000040",
+    "issue_date": "2026-03-12T10:00:00",
+    "closing_date": "2026-03-26T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000041",
+    "purchase_request_id": "PR-2026-000041",
+    "issue_date": "2026-03-13T10:00:00",
+    "closing_date": "2026-03-27T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000042",
+    "purchase_request_id": "PR-2026-000042",
+    "issue_date": "2026-03-14T10:00:00",
+    "closing_date": "2026-03-28T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000043",
+    "purchase_request_id": "PR-2026-000043",
+    "issue_date": "2026-03-15T10:00:00",
+    "closing_date": "2026-03-29T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000044",
+    "purchase_request_id": "PR-2026-000044",
+    "issue_date": "2026-04-20T10:00:00",
+    "closing_date": "2026-05-04T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000045",
+    "purchase_request_id": "PR-2026-000045",
+    "issue_date": "2026-06-06T10:00:00",
+    "closing_date": "2026-06-20T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000046",
+    "purchase_request_id": "PR-2026-000046",
+    "issue_date": "2026-03-18T10:00:00",
+    "closing_date": "2026-04-01T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000047",
+    "purchase_request_id": "PR-2026-000047",
+    "issue_date": "2026-05-03T10:00:00",
+    "closing_date": "2026-05-17T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000048",
+    "purchase_request_id": "PR-2026-000048",
+    "issue_date": "2026-07-11T10:00:00",
+    "closing_date": "2026-07-25T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000049",
+    "purchase_request_id": "PR-2026-000049",
+    "issue_date": "2026-04-13T10:00:00",
+    "closing_date": "2026-04-27T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000050",
+    "purchase_request_id": "PR-2026-000050",
+    "issue_date": "2026-05-21T10:00:00",
+    "closing_date": "2026-06-04T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000051",
+    "purchase_request_id": "PR-2026-000051",
+    "issue_date": "2026-05-12T10:00:00",
+    "closing_date": "2026-05-26T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000052",
+    "purchase_request_id": "PR-2026-000052",
+    "issue_date": "2026-03-24T10:00:00",
+    "closing_date": "2026-04-07T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000053",
+    "purchase_request_id": "PR-2026-000053",
+    "issue_date": "2026-03-25T10:00:00",
+    "closing_date": "2026-04-08T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000054",
+    "purchase_request_id": "PR-2026-000054",
+    "issue_date": "2026-03-26T10:00:00",
+    "closing_date": "2026-04-09T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000055",
+    "purchase_request_id": "PR-2026-000055",
+    "issue_date": "2026-05-14T10:00:00",
+    "closing_date": "2026-05-28T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000056",
+    "purchase_request_id": "PR-2026-000056",
+    "issue_date": "2026-07-13T10:00:00",
+    "closing_date": "2026-07-27T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000057",
+    "purchase_request_id": "PR-2026-000057",
+    "issue_date": "2026-03-29T10:00:00",
+    "closing_date": "2026-04-12T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000058",
+    "purchase_request_id": "PR-2026-000058",
+    "issue_date": "2026-04-02T10:00:00",
+    "closing_date": "2026-04-16T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000059",
+    "purchase_request_id": "PR-2026-000059",
+    "issue_date": "2026-04-21T10:00:00",
+    "closing_date": "2026-05-05T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000060",
+    "purchase_request_id": "PR-2026-000060",
+    "issue_date": "2026-07-26T10:00:00",
+    "closing_date": "2026-08-09T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000061",
+    "purchase_request_id": "PR-2026-000061",
+    "issue_date": "2026-04-02T10:00:00",
+    "closing_date": "2026-04-16T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000062",
+    "purchase_request_id": "PR-2026-000062",
+    "issue_date": "2026-04-03T10:00:00",
+    "closing_date": "2026-04-17T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000063",
+    "purchase_request_id": "PR-2026-000063",
+    "issue_date": "2026-04-08T10:00:00",
+    "closing_date": "2026-04-22T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000064",
+    "purchase_request_id": "PR-2026-000064",
+    "issue_date": "2026-04-05T10:00:00",
+    "closing_date": "2026-04-19T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000065",
+    "purchase_request_id": "PR-2026-000065",
+    "issue_date": "2026-04-06T10:00:00",
+    "closing_date": "2026-04-20T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000066",
+    "purchase_request_id": "PR-2026-000066",
+    "issue_date": "2026-04-07T10:00:00",
+    "closing_date": "2026-04-21T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000067",
+    "purchase_request_id": "PR-2026-000067",
+    "issue_date": "2026-04-08T10:00:00",
+    "closing_date": "2026-04-22T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000068",
+    "purchase_request_id": "PR-2026-000068",
+    "issue_date": "2026-04-09T10:00:00",
+    "closing_date": "2026-04-23T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000069",
+    "purchase_request_id": "PR-2026-000069",
+    "issue_date": "2026-04-10T10:00:00",
+    "closing_date": "2026-04-24T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000070",
+    "purchase_request_id": "PR-2026-000070",
+    "issue_date": "2026-04-11T10:00:00",
+    "closing_date": "2026-04-25T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000071",
+    "purchase_request_id": "PR-2026-000071",
+    "issue_date": "2026-07-26T10:00:00",
+    "closing_date": "2026-08-09T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000072",
+    "purchase_request_id": "PR-2026-000072",
+    "issue_date": "2026-07-12T10:00:00",
+    "closing_date": "2026-07-26T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000073",
+    "purchase_request_id": "PR-2026-000073",
+    "issue_date": "2026-05-24T10:00:00",
+    "closing_date": "2026-06-07T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000074",
+    "purchase_request_id": "PR-2026-000074",
+    "issue_date": "2026-04-15T10:00:00",
+    "closing_date": "2026-04-29T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000075",
+    "purchase_request_id": "PR-2026-000075",
+    "issue_date": "2026-05-25T10:00:00",
+    "closing_date": "2026-06-08T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000076",
+    "purchase_request_id": "PR-2026-000076",
+    "issue_date": "2026-04-17T10:00:00",
+    "closing_date": "2026-05-01T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000077",
+    "purchase_request_id": "PR-2026-000077",
+    "issue_date": "2026-04-18T10:00:00",
+    "closing_date": "2026-05-02T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000078",
+    "purchase_request_id": "PR-2026-000078",
+    "issue_date": "2026-04-19T10:00:00",
+    "closing_date": "2026-05-03T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000079",
+    "purchase_request_id": "PR-2026-000079",
+    "issue_date": "2026-04-20T10:00:00",
+    "closing_date": "2026-05-04T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000080",
+    "purchase_request_id": "PR-2026-000080",
+    "issue_date": "2026-04-21T10:00:00",
+    "closing_date": "2026-05-05T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000081",
+    "purchase_request_id": "PR-2026-000081",
+    "issue_date": "2026-04-22T10:00:00",
+    "closing_date": "2026-05-06T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000082",
+    "purchase_request_id": "PR-2026-000082",
+    "issue_date": "2026-04-23T10:00:00",
+    "closing_date": "2026-05-07T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000083",
+    "purchase_request_id": "PR-2026-000083",
+    "issue_date": "2026-08-09T10:00:00",
+    "closing_date": "2026-08-23T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000084",
+    "purchase_request_id": "PR-2026-000084",
+    "issue_date": "2026-04-25T10:00:00",
+    "closing_date": "2026-05-09T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000085",
+    "purchase_request_id": "PR-2026-000085",
+    "issue_date": "2026-05-10T10:00:00",
+    "closing_date": "2026-05-24T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000086",
+    "purchase_request_id": "PR-2026-000086",
+    "issue_date": "2026-04-27T10:00:00",
+    "closing_date": "2026-05-11T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000087",
+    "purchase_request_id": "PR-2026-000087",
+    "issue_date": "2026-04-28T10:00:00",
+    "closing_date": "2026-05-12T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000088",
+    "purchase_request_id": "PR-2026-000088",
+    "issue_date": "2026-05-20T10:00:00",
+    "closing_date": "2026-06-03T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000089",
+    "purchase_request_id": "PR-2026-000089",
+    "issue_date": "2026-05-05T10:00:00",
+    "closing_date": "2026-05-19T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000090",
+    "purchase_request_id": "PR-2026-000090",
+    "issue_date": "2026-07-20T10:00:00",
+    "closing_date": "2026-08-03T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000091",
+    "purchase_request_id": "PR-2026-000091",
+    "issue_date": "2026-07-07T10:00:00",
+    "closing_date": "2026-07-21T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000092",
+    "purchase_request_id": "PR-2026-000092",
+    "issue_date": "2026-05-03T10:00:00",
+    "closing_date": "2026-05-17T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000093",
+    "purchase_request_id": "PR-2026-000093",
+    "issue_date": "2026-05-04T10:00:00",
+    "closing_date": "2026-05-18T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000094",
+    "purchase_request_id": "PR-2026-000094",
+    "issue_date": "2026-07-28T10:00:00",
+    "closing_date": "2026-08-11T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000095",
+    "purchase_request_id": "PR-2026-000095",
+    "issue_date": "2026-06-01T10:00:00",
+    "closing_date": "2026-06-15T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000096",
+    "purchase_request_id": "PR-2026-000096",
+    "issue_date": "2026-07-19T10:00:00",
+    "closing_date": "2026-08-02T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000097",
+    "purchase_request_id": "PR-2026-000097",
+    "issue_date": "2026-07-05T10:00:00",
+    "closing_date": "2026-07-19T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000098",
+    "purchase_request_id": "PR-2026-000098",
+    "issue_date": "2026-05-09T10:00:00",
+    "closing_date": "2026-05-23T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000099",
+    "purchase_request_id": "PR-2026-000099",
+    "issue_date": "2026-06-12T10:00:00",
+    "closing_date": "2026-06-26T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000100",
+    "purchase_request_id": "PR-2026-000100",
+    "issue_date": "2026-05-11T10:00:00",
+    "closing_date": "2026-05-25T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000101",
+    "purchase_request_id": "PR-2026-000101",
+    "issue_date": "2026-05-12T10:00:00",
+    "closing_date": "2026-05-26T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000102",
+    "purchase_request_id": "PR-2026-000102",
+    "issue_date": "2026-05-13T10:00:00",
+    "closing_date": "2026-05-27T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000103",
+    "purchase_request_id": "PR-2026-000103",
+    "issue_date": "2026-05-14T10:00:00",
+    "closing_date": "2026-05-28T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000104",
+    "purchase_request_id": "PR-2026-000104",
+    "issue_date": "2026-05-15T10:00:00",
+    "closing_date": "2026-05-29T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000105",
+    "purchase_request_id": "PR-2026-000105",
+    "issue_date": "2026-05-16T10:00:00",
+    "closing_date": "2026-05-30T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000106",
+    "purchase_request_id": "PR-2026-000106",
+    "issue_date": "2026-07-07T10:00:00",
+    "closing_date": "2026-07-21T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000107",
+    "purchase_request_id": "PR-2026-000107",
+    "issue_date": "2026-05-18T10:00:00",
+    "closing_date": "2026-06-01T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000108",
+    "purchase_request_id": "PR-2026-000108",
+    "issue_date": "2026-05-19T10:00:00",
+    "closing_date": "2026-06-02T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000109",
+    "purchase_request_id": "PR-2026-000109",
+    "issue_date": "2026-05-21T10:00:00",
+    "closing_date": "2026-06-04T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000110",
+    "purchase_request_id": "PR-2026-000110",
+    "issue_date": "2026-05-21T10:00:00",
+    "closing_date": "2026-06-04T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000111",
+    "purchase_request_id": "PR-2026-000111",
+    "issue_date": "2026-05-22T10:00:00",
+    "closing_date": "2026-06-05T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000112",
+    "purchase_request_id": "PR-2026-000112",
+    "issue_date": "2026-05-23T10:00:00",
+    "closing_date": "2026-06-06T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000113",
+    "purchase_request_id": "PR-2026-000113",
+    "issue_date": "2026-07-26T10:00:00",
+    "closing_date": "2026-08-09T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000114",
+    "purchase_request_id": "PR-2026-000114",
+    "issue_date": "2026-05-25T10:00:00",
+    "closing_date": "2026-06-08T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000115",
+    "purchase_request_id": "PR-2026-000115",
+    "issue_date": "2026-06-19T10:00:00",
+    "closing_date": "2026-07-03T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000116",
+    "purchase_request_id": "PR-2026-000116",
+    "issue_date": "2026-05-27T10:00:00",
+    "closing_date": "2026-06-10T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000117",
+    "purchase_request_id": "PR-2026-000117",
+    "issue_date": "2026-05-28T10:00:00",
+    "closing_date": "2026-06-11T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000118",
+    "purchase_request_id": "PR-2026-000118",
+    "issue_date": "2026-05-29T10:00:00",
+    "closing_date": "2026-06-12T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000119",
+    "purchase_request_id": "PR-2026-000119",
+    "issue_date": "2026-05-30T10:00:00",
+    "closing_date": "2026-06-13T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000120",
+    "purchase_request_id": "PR-2026-000120",
+    "issue_date": "2026-05-31T10:00:00",
+    "closing_date": "2026-06-14T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000121",
+    "purchase_request_id": "PR-2026-000121",
+    "issue_date": "2026-06-01T10:00:00",
+    "closing_date": "2026-06-15T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000122",
+    "purchase_request_id": "PR-2026-000122",
+    "issue_date": "2026-06-02T10:00:00",
+    "closing_date": "2026-06-16T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000123",
+    "purchase_request_id": "PR-2026-000123",
+    "issue_date": "2026-06-03T10:00:00",
+    "closing_date": "2026-06-17T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000124",
+    "purchase_request_id": "PR-2026-000124",
+    "issue_date": "2026-06-04T10:00:00",
+    "closing_date": "2026-06-18T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000125",
+    "purchase_request_id": "PR-2026-000125",
+    "issue_date": "2026-06-05T10:00:00",
+    "closing_date": "2026-06-19T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000126",
+    "purchase_request_id": "PR-2026-000126",
+    "issue_date": "2026-06-23T10:00:00",
+    "closing_date": "2026-07-07T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000127",
+    "purchase_request_id": "PR-2026-000127",
+    "issue_date": "2026-06-07T10:00:00",
+    "closing_date": "2026-06-21T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000128",
+    "purchase_request_id": "PR-2026-000128",
+    "issue_date": "2026-06-08T10:00:00",
+    "closing_date": "2026-06-22T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000129",
+    "purchase_request_id": "PR-2026-000129",
+    "issue_date": "2026-06-09T10:00:00",
+    "closing_date": "2026-06-23T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000130",
+    "purchase_request_id": "PR-2026-000130",
+    "issue_date": "2026-06-10T10:00:00",
+    "closing_date": "2026-06-24T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000131",
+    "purchase_request_id": "PR-2026-000131",
+    "issue_date": "2026-06-11T10:00:00",
+    "closing_date": "2026-06-25T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000132",
+    "purchase_request_id": "PR-2026-000132",
+    "issue_date": "2026-08-10T10:00:00",
+    "closing_date": "2026-08-24T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000133",
+    "purchase_request_id": "PR-2026-000133",
+    "issue_date": "2026-06-13T10:00:00",
+    "closing_date": "2026-06-27T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000134",
+    "purchase_request_id": "PR-2026-000134",
+    "issue_date": "2026-06-14T10:00:00",
+    "closing_date": "2026-06-28T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000135",
+    "purchase_request_id": "PR-2026-000135",
+    "issue_date": "2026-06-15T10:00:00",
+    "closing_date": "2026-06-29T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000136",
+    "purchase_request_id": "PR-2026-000136",
+    "issue_date": "2026-06-29T10:00:00",
+    "closing_date": "2026-07-13T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000137",
+    "purchase_request_id": "PR-2026-000137",
+    "issue_date": "2026-06-26T10:00:00",
+    "closing_date": "2026-07-10T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000138",
+    "purchase_request_id": "PR-2026-000138",
+    "issue_date": "2026-06-18T10:00:00",
+    "closing_date": "2026-07-02T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000139",
+    "purchase_request_id": "PR-2026-000139",
+    "issue_date": "2026-06-26T10:00:00",
+    "closing_date": "2026-07-10T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000140",
+    "purchase_request_id": "PR-2026-000140",
+    "issue_date": "2026-06-20T10:00:00",
+    "closing_date": "2026-07-04T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000141",
+    "purchase_request_id": "PR-2026-000141",
+    "issue_date": "2026-08-06T10:00:00",
+    "closing_date": "2026-08-20T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000142",
+    "purchase_request_id": "PR-2026-000142",
+    "issue_date": "2026-06-22T10:00:00",
+    "closing_date": "2026-07-06T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000143",
+    "purchase_request_id": "PR-2026-000143",
+    "issue_date": "2026-06-23T10:00:00",
+    "closing_date": "2026-07-07T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000144",
+    "purchase_request_id": "PR-2026-000144",
+    "issue_date": "2026-06-27T10:00:00",
+    "closing_date": "2026-07-11T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000145",
+    "purchase_request_id": "PR-2026-000145",
+    "issue_date": "2026-06-25T10:00:00",
+    "closing_date": "2026-07-09T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000146",
+    "purchase_request_id": "PR-2026-000146",
+    "issue_date": "2026-06-26T10:00:00",
+    "closing_date": "2026-07-10T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000147",
+    "purchase_request_id": "PR-2026-000147",
+    "issue_date": "2026-06-27T10:00:00",
+    "closing_date": "2026-07-11T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000148",
+    "purchase_request_id": "PR-2026-000148",
+    "issue_date": "2026-07-15T10:00:00",
+    "closing_date": "2026-07-29T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000149",
+    "purchase_request_id": "PR-2026-000149",
+    "issue_date": "2026-07-10T10:00:00",
+    "closing_date": "2026-07-24T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000150",
+    "purchase_request_id": "PR-2026-000150",
+    "issue_date": "2026-08-09T10:00:00",
+    "closing_date": "2026-08-23T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000151",
+    "purchase_request_id": "PR-2026-000151",
+    "issue_date": "2026-08-07T10:00:00",
+    "closing_date": "2026-08-21T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000152",
+    "purchase_request_id": "PR-2026-000152",
+    "issue_date": "2026-02-02T10:00:00",
+    "closing_date": "2026-02-16T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000153",
+    "purchase_request_id": "PR-2026-000153",
+    "issue_date": "2026-08-09T10:00:00",
+    "closing_date": "2026-08-23T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000154",
+    "purchase_request_id": "PR-2026-000154",
+    "issue_date": "2026-02-04T10:00:00",
+    "closing_date": "2026-02-18T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000155",
+    "purchase_request_id": "PR-2026-000155",
+    "issue_date": "2026-06-01T10:00:00",
+    "closing_date": "2026-06-15T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000156",
+    "purchase_request_id": "PR-2026-000156",
+    "issue_date": "2026-06-29T10:00:00",
+    "closing_date": "2026-07-13T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000157",
+    "purchase_request_id": "PR-2026-000157",
+    "issue_date": "2026-04-30T10:00:00",
+    "closing_date": "2026-05-14T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000158",
+    "purchase_request_id": "PR-2026-000158",
+    "issue_date": "2026-03-11T10:00:00",
+    "closing_date": "2026-03-25T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000159",
+    "purchase_request_id": "PR-2026-000159",
+    "issue_date": "2026-02-09T10:00:00",
+    "closing_date": "2026-02-23T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000160",
+    "purchase_request_id": "PR-2026-000160",
+    "issue_date": "2026-02-10T10:00:00",
+    "closing_date": "2026-02-24T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000161",
+    "purchase_request_id": "PR-2026-000161",
+    "issue_date": "2026-02-16T10:00:00",
+    "closing_date": "2026-03-02T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000162",
+    "purchase_request_id": "PR-2026-000162",
+    "issue_date": "2026-04-01T10:00:00",
+    "closing_date": "2026-04-15T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000163",
+    "purchase_request_id": "PR-2026-000163",
+    "issue_date": "2026-07-31T10:00:00",
+    "closing_date": "2026-08-14T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000164",
+    "purchase_request_id": "PR-2026-000164",
+    "issue_date": "2026-05-23T10:00:00",
+    "closing_date": "2026-06-06T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000165",
+    "purchase_request_id": "PR-2026-000165",
+    "issue_date": "2026-05-03T10:00:00",
+    "closing_date": "2026-05-17T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000166",
+    "purchase_request_id": "PR-2026-000166",
+    "issue_date": "2026-07-20T10:00:00",
+    "closing_date": "2026-08-03T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000167",
+    "purchase_request_id": "PR-2026-000167",
+    "issue_date": "2026-02-17T10:00:00",
+    "closing_date": "2026-03-03T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000168",
+    "purchase_request_id": "PR-2026-000168",
+    "issue_date": "2026-02-18T10:00:00",
+    "closing_date": "2026-03-04T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000169",
+    "purchase_request_id": "PR-2026-000169",
+    "issue_date": "2026-02-19T10:00:00",
+    "closing_date": "2026-03-05T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000170",
+    "purchase_request_id": "PR-2026-000170",
+    "issue_date": "2026-02-20T10:00:00",
+    "closing_date": "2026-03-06T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000171",
+    "purchase_request_id": "PR-2026-000171",
+    "issue_date": "2026-02-21T10:00:00",
+    "closing_date": "2026-03-07T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000172",
+    "purchase_request_id": "PR-2026-000172",
+    "issue_date": "2026-02-22T10:00:00",
+    "closing_date": "2026-03-08T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000173",
+    "purchase_request_id": "PR-2026-000173",
+    "issue_date": "2026-07-07T10:00:00",
+    "closing_date": "2026-07-21T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000174",
+    "purchase_request_id": "PR-2026-000174",
+    "issue_date": "2026-02-24T10:00:00",
+    "closing_date": "2026-03-10T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000175",
+    "purchase_request_id": "PR-2026-000175",
+    "issue_date": "2026-02-25T10:00:00",
+    "closing_date": "2026-03-11T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000176",
+    "purchase_request_id": "PR-2026-000176",
+    "issue_date": "2026-08-08T10:00:00",
+    "closing_date": "2026-08-22T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000177",
+    "purchase_request_id": "PR-2026-000177",
+    "issue_date": "2026-07-27T10:00:00",
+    "closing_date": "2026-08-10T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000178",
+    "purchase_request_id": "PR-2026-000178",
+    "issue_date": "2026-02-28T10:00:00",
+    "closing_date": "2026-03-14T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000179",
+    "purchase_request_id": "PR-2026-000179",
+    "issue_date": "2026-04-26T10:00:00",
+    "closing_date": "2026-05-10T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000180",
+    "purchase_request_id": "PR-2026-000180",
+    "issue_date": "2026-03-02T10:00:00",
+    "closing_date": "2026-03-16T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000181",
+    "purchase_request_id": "PR-2026-000181",
+    "issue_date": "2026-05-30T10:00:00",
+    "closing_date": "2026-06-13T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000182",
+    "purchase_request_id": "PR-2026-000182",
+    "issue_date": "2026-03-14T10:00:00",
+    "closing_date": "2026-03-28T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000183",
+    "purchase_request_id": "PR-2026-000183",
+    "issue_date": "2026-03-05T10:00:00",
+    "closing_date": "2026-03-19T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000184",
+    "purchase_request_id": "PR-2026-000184",
+    "issue_date": "2026-04-04T10:00:00",
+    "closing_date": "2026-04-18T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000185",
+    "purchase_request_id": "PR-2026-000185",
+    "issue_date": "2026-06-09T10:00:00",
+    "closing_date": "2026-06-23T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000186",
+    "purchase_request_id": "PR-2026-000186",
+    "issue_date": "2026-04-08T10:00:00",
+    "closing_date": "2026-04-22T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000187",
+    "purchase_request_id": "PR-2026-000187",
+    "issue_date": "2026-04-26T10:00:00",
+    "closing_date": "2026-05-10T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000188",
+    "purchase_request_id": "PR-2026-000188",
+    "issue_date": "2026-07-31T10:00:00",
+    "closing_date": "2026-08-14T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000189",
+    "purchase_request_id": "PR-2026-000189",
+    "issue_date": "2026-03-11T10:00:00",
+    "closing_date": "2026-03-25T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000190",
+    "purchase_request_id": "PR-2026-000190",
+    "issue_date": "2026-05-28T10:00:00",
+    "closing_date": "2026-06-11T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000191",
+    "purchase_request_id": "PR-2026-000191",
+    "issue_date": "2026-07-01T10:00:00",
+    "closing_date": "2026-07-15T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000192",
+    "purchase_request_id": "PR-2026-000192",
+    "issue_date": "2026-06-07T10:00:00",
+    "closing_date": "2026-06-21T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000193",
+    "purchase_request_id": "PR-2026-000193",
+    "issue_date": "2026-07-10T10:00:00",
+    "closing_date": "2026-07-24T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000194",
+    "purchase_request_id": "PR-2026-000194",
+    "issue_date": "2026-03-16T10:00:00",
+    "closing_date": "2026-03-30T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000195",
+    "purchase_request_id": "PR-2026-000195",
+    "issue_date": "2026-04-22T10:00:00",
+    "closing_date": "2026-05-06T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000196",
+    "purchase_request_id": "PR-2026-000196",
+    "issue_date": "2026-06-19T10:00:00",
+    "closing_date": "2026-07-03T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000197",
+    "purchase_request_id": "PR-2026-000197",
+    "issue_date": "2026-06-24T10:00:00",
+    "closing_date": "2026-07-08T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000198",
+    "purchase_request_id": "PR-2026-000198",
+    "issue_date": "2026-04-13T10:00:00",
+    "closing_date": "2026-04-27T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000199",
+    "purchase_request_id": "PR-2026-000199",
+    "issue_date": "2026-06-18T10:00:00",
+    "closing_date": "2026-07-02T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000200",
+    "purchase_request_id": "PR-2026-000200",
+    "issue_date": "2026-04-29T10:00:00",
+    "closing_date": "2026-05-13T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000201",
+    "purchase_request_id": "PR-2026-000201",
+    "issue_date": "2026-05-14T10:00:00",
+    "closing_date": "2026-05-28T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000202",
+    "purchase_request_id": "PR-2026-000202",
+    "issue_date": "2026-04-25T10:00:00",
+    "closing_date": "2026-05-09T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000203",
+    "purchase_request_id": "PR-2026-000203",
+    "issue_date": "2026-03-25T10:00:00",
+    "closing_date": "2026-04-08T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000204",
+    "purchase_request_id": "PR-2026-000204",
+    "issue_date": "2026-07-21T10:00:00",
+    "closing_date": "2026-08-04T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000205",
+    "purchase_request_id": "PR-2026-000205",
+    "issue_date": "2026-08-10T10:00:00",
+    "closing_date": "2026-08-24T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000206",
+    "purchase_request_id": "PR-2026-000206",
+    "issue_date": "2026-03-28T10:00:00",
+    "closing_date": "2026-04-11T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000207",
+    "purchase_request_id": "PR-2026-000207",
+    "issue_date": "2026-05-22T10:00:00",
+    "closing_date": "2026-06-05T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000208",
+    "purchase_request_id": "PR-2026-000208",
+    "issue_date": "2026-03-30T10:00:00",
+    "closing_date": "2026-04-13T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000209",
+    "purchase_request_id": "PR-2026-000209",
+    "issue_date": "2026-05-15T10:00:00",
+    "closing_date": "2026-05-29T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000210",
+    "purchase_request_id": "PR-2026-000210",
+    "issue_date": "2026-06-29T10:00:00",
+    "closing_date": "2026-07-13T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000211",
+    "purchase_request_id": "PR-2026-000211",
+    "issue_date": "2026-04-02T10:00:00",
+    "closing_date": "2026-04-16T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000212",
+    "purchase_request_id": "PR-2026-000212",
+    "issue_date": "2026-04-20T10:00:00",
+    "closing_date": "2026-05-04T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000213",
+    "purchase_request_id": "PR-2026-000213",
+    "issue_date": "2026-04-04T10:00:00",
+    "closing_date": "2026-04-18T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000214",
+    "purchase_request_id": "PR-2026-000214",
+    "issue_date": "2026-07-13T10:00:00",
+    "closing_date": "2026-07-27T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000215",
+    "purchase_request_id": "PR-2026-000215",
+    "issue_date": "2026-04-06T10:00:00",
+    "closing_date": "2026-04-20T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000216",
+    "purchase_request_id": "PR-2026-000216",
+    "issue_date": "2026-07-06T10:00:00",
+    "closing_date": "2026-07-20T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000217",
+    "purchase_request_id": "PR-2026-000217",
+    "issue_date": "2026-07-08T10:00:00",
+    "closing_date": "2026-07-22T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000218",
+    "purchase_request_id": "PR-2026-000218",
+    "issue_date": "2026-06-03T10:00:00",
+    "closing_date": "2026-06-17T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000219",
+    "purchase_request_id": "PR-2026-000219",
+    "issue_date": "2026-06-09T10:00:00",
+    "closing_date": "2026-06-23T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000220",
+    "purchase_request_id": "PR-2026-000220",
+    "issue_date": "2026-06-28T10:00:00",
+    "closing_date": "2026-07-12T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000221",
+    "purchase_request_id": "PR-2026-000221",
+    "issue_date": "2026-04-27T10:00:00",
+    "closing_date": "2026-05-11T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000222",
+    "purchase_request_id": "PR-2026-000222",
+    "issue_date": "2026-04-13T10:00:00",
+    "closing_date": "2026-04-27T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000223",
+    "purchase_request_id": "PR-2026-000223",
+    "issue_date": "2026-04-14T10:00:00",
+    "closing_date": "2026-04-28T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000224",
+    "purchase_request_id": "PR-2026-000224",
+    "issue_date": "2026-04-15T10:00:00",
+    "closing_date": "2026-04-29T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000225",
+    "purchase_request_id": "PR-2026-000225",
+    "issue_date": "2026-04-16T10:00:00",
+    "closing_date": "2026-04-30T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000226",
+    "purchase_request_id": "PR-2026-000226",
+    "issue_date": "2026-04-17T10:00:00",
+    "closing_date": "2026-05-01T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000227",
+    "purchase_request_id": "PR-2026-000227",
+    "issue_date": "2026-04-18T10:00:00",
+    "closing_date": "2026-05-02T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000228",
+    "purchase_request_id": "PR-2026-000228",
+    "issue_date": "2026-04-19T10:00:00",
+    "closing_date": "2026-05-03T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000229",
+    "purchase_request_id": "PR-2026-000229",
+    "issue_date": "2026-04-20T10:00:00",
+    "closing_date": "2026-05-04T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000230",
+    "purchase_request_id": "PR-2026-000230",
+    "issue_date": "2026-04-21T10:00:00",
+    "closing_date": "2026-05-05T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000231",
+    "purchase_request_id": "PR-2026-000231",
+    "issue_date": "2026-08-10T10:00:00",
+    "closing_date": "2026-08-24T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000232",
+    "purchase_request_id": "PR-2026-000232",
+    "issue_date": "2026-08-05T10:00:00",
+    "closing_date": "2026-08-19T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000233",
+    "purchase_request_id": "PR-2026-000233",
+    "issue_date": "2026-04-24T10:00:00",
+    "closing_date": "2026-05-08T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000234",
+    "purchase_request_id": "PR-2026-000234",
+    "issue_date": "2026-04-25T10:00:00",
+    "closing_date": "2026-05-09T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000235",
+    "purchase_request_id": "PR-2026-000235",
+    "issue_date": "2026-05-26T10:00:00",
+    "closing_date": "2026-06-09T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000236",
+    "purchase_request_id": "PR-2026-000236",
+    "issue_date": "2026-06-19T10:00:00",
+    "closing_date": "2026-07-03T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000237",
+    "purchase_request_id": "PR-2026-000237",
+    "issue_date": "2026-05-08T10:00:00",
+    "closing_date": "2026-05-22T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000238",
+    "purchase_request_id": "PR-2026-000238",
+    "issue_date": "2026-04-29T10:00:00",
+    "closing_date": "2026-05-13T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000239",
+    "purchase_request_id": "PR-2026-000239",
+    "issue_date": "2026-04-30T10:00:00",
+    "closing_date": "2026-05-14T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000240",
+    "purchase_request_id": "PR-2026-000240",
+    "issue_date": "2026-06-04T10:00:00",
+    "closing_date": "2026-06-18T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000241",
+    "purchase_request_id": "PR-2026-000241",
+    "issue_date": "2026-05-22T10:00:00",
+    "closing_date": "2026-06-05T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000242",
+    "purchase_request_id": "PR-2026-000242",
+    "issue_date": "2026-07-19T10:00:00",
+    "closing_date": "2026-08-02T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000243",
+    "purchase_request_id": "PR-2026-000243",
+    "issue_date": "2026-05-04T10:00:00",
+    "closing_date": "2026-05-18T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000244",
+    "purchase_request_id": "PR-2026-000244",
+    "issue_date": "2026-08-09T10:00:00",
+    "closing_date": "2026-08-23T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000245",
+    "purchase_request_id": "PR-2026-000245",
+    "issue_date": "2026-05-06T10:00:00",
+    "closing_date": "2026-05-20T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000246",
+    "purchase_request_id": "PR-2026-000246",
+    "issue_date": "2026-05-07T10:00:00",
+    "closing_date": "2026-05-21T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000247",
+    "purchase_request_id": "PR-2026-000247",
+    "issue_date": "2026-05-08T10:00:00",
+    "closing_date": "2026-05-22T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000248",
+    "purchase_request_id": "PR-2026-000248",
+    "issue_date": "2026-05-09T10:00:00",
+    "closing_date": "2026-05-23T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000249",
+    "purchase_request_id": "PR-2026-000249",
+    "issue_date": "2026-05-10T10:00:00",
+    "closing_date": "2026-05-24T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000250",
+    "purchase_request_id": "PR-2026-000250",
+    "issue_date": "2026-05-11T10:00:00",
+    "closing_date": "2026-05-25T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000251",
+    "purchase_request_id": "PR-2026-000251",
+    "issue_date": "2026-06-26T10:00:00",
+    "closing_date": "2026-07-10T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000252",
+    "purchase_request_id": "PR-2026-000252",
+    "issue_date": "2026-06-13T10:00:00",
+    "closing_date": "2026-06-27T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000253",
+    "purchase_request_id": "PR-2026-000253",
+    "issue_date": "2026-05-14T10:00:00",
+    "closing_date": "2026-05-28T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000254",
+    "purchase_request_id": "PR-2026-000254",
+    "issue_date": "2026-05-15T10:00:00",
+    "closing_date": "2026-05-29T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000255",
+    "purchase_request_id": "PR-2026-000255",
+    "issue_date": "2026-07-21T10:00:00",
+    "closing_date": "2026-08-04T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000256",
+    "purchase_request_id": "PR-2026-000256",
+    "issue_date": "2026-05-17T10:00:00",
+    "closing_date": "2026-05-31T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000257",
+    "purchase_request_id": "PR-2026-000257",
+    "issue_date": "2026-07-11T10:00:00",
+    "closing_date": "2026-07-25T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000258",
+    "purchase_request_id": "PR-2026-000258",
+    "issue_date": "2026-06-29T10:00:00",
+    "closing_date": "2026-07-13T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000259",
+    "purchase_request_id": "PR-2026-000259",
+    "issue_date": "2026-05-20T10:00:00",
+    "closing_date": "2026-06-03T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000260",
+    "purchase_request_id": "PR-2026-000260",
+    "issue_date": "2026-05-21T10:00:00",
+    "closing_date": "2026-06-04T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000261",
+    "purchase_request_id": "PR-2026-000261",
+    "issue_date": "2026-06-10T10:00:00",
+    "closing_date": "2026-06-24T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000262",
+    "purchase_request_id": "PR-2026-000262",
+    "issue_date": "2026-05-23T10:00:00",
+    "closing_date": "2026-06-06T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000263",
+    "purchase_request_id": "PR-2026-000263",
+    "issue_date": "2026-05-24T10:00:00",
+    "closing_date": "2026-06-07T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000264",
+    "purchase_request_id": "PR-2026-000264",
+    "issue_date": "2026-07-29T10:00:00",
+    "closing_date": "2026-08-12T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000265",
+    "purchase_request_id": "PR-2026-000265",
+    "issue_date": "2026-05-26T10:00:00",
+    "closing_date": "2026-06-09T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000266",
+    "purchase_request_id": "PR-2026-000266",
+    "issue_date": "2026-05-27T10:00:00",
+    "closing_date": "2026-06-10T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000267",
+    "purchase_request_id": "PR-2026-000267",
+    "issue_date": "2026-07-22T10:00:00",
+    "closing_date": "2026-08-05T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000268",
+    "purchase_request_id": "PR-2026-000268",
+    "issue_date": "2026-05-29T10:00:00",
+    "closing_date": "2026-06-12T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000269",
+    "purchase_request_id": "PR-2026-000269",
+    "issue_date": "2026-05-30T10:00:00",
+    "closing_date": "2026-06-13T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000270",
+    "purchase_request_id": "PR-2026-000270",
+    "issue_date": "2026-07-18T10:00:00",
+    "closing_date": "2026-08-01T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000271",
+    "purchase_request_id": "PR-2026-000271",
+    "issue_date": "2026-06-01T10:00:00",
+    "closing_date": "2026-06-15T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000272",
+    "purchase_request_id": "PR-2026-000272",
+    "issue_date": "2026-06-02T10:00:00",
+    "closing_date": "2026-06-16T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000273",
+    "purchase_request_id": "PR-2026-000273",
+    "issue_date": "2026-06-03T10:00:00",
+    "closing_date": "2026-06-17T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000274",
+    "purchase_request_id": "PR-2026-000274",
+    "issue_date": "2026-06-04T10:00:00",
+    "closing_date": "2026-06-18T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000275",
+    "purchase_request_id": "PR-2026-000275",
+    "issue_date": "2026-06-05T10:00:00",
+    "closing_date": "2026-06-19T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000276",
+    "purchase_request_id": "PR-2026-000276",
+    "issue_date": "2026-07-02T10:00:00",
+    "closing_date": "2026-07-16T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000277",
+    "purchase_request_id": "PR-2026-000277",
+    "issue_date": "2026-07-15T10:00:00",
+    "closing_date": "2026-07-29T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000278",
+    "purchase_request_id": "PR-2026-000278",
+    "issue_date": "2026-06-08T10:00:00",
+    "closing_date": "2026-06-22T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000279",
+    "purchase_request_id": "PR-2026-000279",
+    "issue_date": "2026-06-09T10:00:00",
+    "closing_date": "2026-06-23T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000280",
+    "purchase_request_id": "PR-2026-000280",
+    "issue_date": "2026-07-01T10:00:00",
+    "closing_date": "2026-07-15T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000281",
+    "purchase_request_id": "PR-2026-000281",
+    "issue_date": "2026-06-11T10:00:00",
+    "closing_date": "2026-06-25T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000282",
+    "purchase_request_id": "PR-2026-000282",
+    "issue_date": "2026-08-07T10:00:00",
+    "closing_date": "2026-08-21T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000283",
+    "purchase_request_id": "PR-2026-000283",
+    "issue_date": "2026-06-13T10:00:00",
+    "closing_date": "2026-06-27T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000284",
+    "purchase_request_id": "PR-2026-000284",
+    "issue_date": "2026-06-14T10:00:00",
+    "closing_date": "2026-06-28T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000285",
+    "purchase_request_id": "PR-2026-000285",
+    "issue_date": "2026-06-15T10:00:00",
+    "closing_date": "2026-06-29T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000286",
+    "purchase_request_id": "PR-2026-000286",
+    "issue_date": "2026-06-16T10:00:00",
+    "closing_date": "2026-06-30T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000287",
+    "purchase_request_id": "PR-2026-000287",
+    "issue_date": "2026-06-17T10:00:00",
+    "closing_date": "2026-07-01T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000288",
+    "purchase_request_id": "PR-2026-000288",
+    "issue_date": "2026-06-18T10:00:00",
+    "closing_date": "2026-07-02T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000289",
+    "purchase_request_id": "PR-2026-000289",
+    "issue_date": "2026-06-19T10:00:00",
+    "closing_date": "2026-07-03T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000290",
+    "purchase_request_id": "PR-2026-000290",
+    "issue_date": "2026-06-20T10:00:00",
+    "closing_date": "2026-07-04T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000291",
+    "purchase_request_id": "PR-2026-000291",
+    "issue_date": "2026-06-21T10:00:00",
+    "closing_date": "2026-07-05T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000292",
+    "purchase_request_id": "PR-2026-000292",
+    "issue_date": "2026-06-22T10:00:00",
+    "closing_date": "2026-07-06T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000293",
+    "purchase_request_id": "PR-2026-000293",
+    "issue_date": "2026-06-23T10:00:00",
+    "closing_date": "2026-07-07T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000294",
+    "purchase_request_id": "PR-2026-000294",
+    "issue_date": "2026-06-24T10:00:00",
+    "closing_date": "2026-07-08T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000295",
+    "purchase_request_id": "PR-2026-000295",
+    "issue_date": "2026-06-25T10:00:00",
+    "closing_date": "2026-07-09T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000296",
+    "purchase_request_id": "PR-2026-000296",
+    "issue_date": "2026-08-04T10:00:00",
+    "closing_date": "2026-08-18T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000297",
+    "purchase_request_id": "PR-2026-000297",
+    "issue_date": "2026-06-27T10:00:00",
+    "closing_date": "2026-07-11T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000298",
+    "purchase_request_id": "PR-2026-000298",
+    "issue_date": "2026-08-10T10:00:00",
+    "closing_date": "2026-08-24T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000299",
+    "purchase_request_id": "PR-2026-000299",
+    "issue_date": "2026-06-29T10:00:00",
+    "closing_date": "2026-07-13T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000300",
+    "purchase_request_id": "PR-2026-000300",
+    "issue_date": "2026-02-26T10:00:00",
+    "closing_date": "2026-03-12T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000301",
+    "purchase_request_id": "PR-2026-000301",
+    "issue_date": "2026-02-04T10:00:00",
+    "closing_date": "2026-02-18T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000302",
+    "purchase_request_id": "PR-2026-000302",
+    "issue_date": "2026-02-02T10:00:00",
+    "closing_date": "2026-02-16T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000303",
+    "purchase_request_id": "PR-2026-000303",
+    "issue_date": "2026-03-05T10:00:00",
+    "closing_date": "2026-03-19T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000304",
+    "purchase_request_id": "PR-2026-000304",
+    "issue_date": "2026-05-10T10:00:00",
+    "closing_date": "2026-05-24T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000305",
+    "purchase_request_id": "PR-2026-000305",
+    "issue_date": "2026-02-09T10:00:00",
+    "closing_date": "2026-02-23T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000306",
+    "purchase_request_id": "PR-2026-000306",
+    "issue_date": "2026-07-07T10:00:00",
+    "closing_date": "2026-07-21T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000307",
+    "purchase_request_id": "PR-2026-000307",
+    "issue_date": "2026-05-24T10:00:00",
+    "closing_date": "2026-06-07T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000308",
+    "purchase_request_id": "PR-2026-000308",
+    "issue_date": "2026-03-19T10:00:00",
+    "closing_date": "2026-04-02T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000309",
+    "purchase_request_id": "PR-2026-000309",
+    "issue_date": "2026-07-25T10:00:00",
+    "closing_date": "2026-08-08T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000310",
+    "purchase_request_id": "PR-2026-000310",
+    "issue_date": "2026-05-05T10:00:00",
+    "closing_date": "2026-05-19T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000311",
+    "purchase_request_id": "PR-2026-000311",
+    "issue_date": "2026-07-29T10:00:00",
+    "closing_date": "2026-08-12T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000312",
+    "purchase_request_id": "PR-2026-000312",
+    "issue_date": "2026-05-06T10:00:00",
+    "closing_date": "2026-05-20T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000313",
+    "purchase_request_id": "PR-2026-000313",
+    "issue_date": "2026-06-04T10:00:00",
+    "closing_date": "2026-06-18T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000314",
+    "purchase_request_id": "PR-2026-000314",
+    "issue_date": "2026-07-30T10:00:00",
+    "closing_date": "2026-08-13T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000315",
+    "purchase_request_id": "PR-2026-000315",
+    "issue_date": "2026-05-27T10:00:00",
+    "closing_date": "2026-06-10T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000316",
+    "purchase_request_id": "PR-2026-000316",
+    "issue_date": "2026-04-21T10:00:00",
+    "closing_date": "2026-05-05T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000317",
+    "purchase_request_id": "PR-2026-000317",
+    "issue_date": "2026-05-30T10:00:00",
+    "closing_date": "2026-06-13T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000318",
+    "purchase_request_id": "PR-2026-000318",
+    "issue_date": "2026-03-21T10:00:00",
+    "closing_date": "2026-04-04T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000319",
+    "purchase_request_id": "PR-2026-000319",
+    "issue_date": "2026-02-19T10:00:00",
+    "closing_date": "2026-03-05T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000320",
+    "purchase_request_id": "PR-2026-000320",
+    "issue_date": "2026-03-03T10:00:00",
+    "closing_date": "2026-03-17T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000321",
+    "purchase_request_id": "PR-2026-000321",
+    "issue_date": "2026-08-08T10:00:00",
+    "closing_date": "2026-08-22T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000322",
+    "purchase_request_id": "PR-2026-000322",
+    "issue_date": "2026-02-26T10:00:00",
+    "closing_date": "2026-03-12T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000323",
+    "purchase_request_id": "PR-2026-000323",
+    "issue_date": "2026-02-26T10:00:00",
+    "closing_date": "2026-03-12T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000324",
+    "purchase_request_id": "PR-2026-000324",
+    "issue_date": "2026-07-26T10:00:00",
+    "closing_date": "2026-08-09T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000325",
+    "purchase_request_id": "PR-2026-000325",
+    "issue_date": "2026-05-29T10:00:00",
+    "closing_date": "2026-06-12T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000326",
+    "purchase_request_id": "PR-2026-000326",
+    "issue_date": "2026-04-23T10:00:00",
+    "closing_date": "2026-05-07T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000327",
+    "purchase_request_id": "PR-2026-000327",
+    "issue_date": "2026-02-27T10:00:00",
+    "closing_date": "2026-03-13T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000328",
+    "purchase_request_id": "PR-2026-000328",
+    "issue_date": "2026-05-08T10:00:00",
+    "closing_date": "2026-05-22T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000329",
+    "purchase_request_id": "PR-2026-000329",
+    "issue_date": "2026-06-01T10:00:00",
+    "closing_date": "2026-06-15T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000330",
+    "purchase_request_id": "PR-2026-000330",
+    "issue_date": "2026-03-02T10:00:00",
+    "closing_date": "2026-03-16T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000331",
+    "purchase_request_id": "PR-2026-000331",
+    "issue_date": "2026-07-01T10:00:00",
+    "closing_date": "2026-07-15T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000332",
+    "purchase_request_id": "PR-2026-000332",
+    "issue_date": "2026-06-13T10:00:00",
+    "closing_date": "2026-06-27T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000333",
+    "purchase_request_id": "PR-2026-000333",
+    "issue_date": "2026-03-29T10:00:00",
+    "closing_date": "2026-04-12T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000334",
+    "purchase_request_id": "PR-2026-000334",
+    "issue_date": "2026-08-03T10:00:00",
+    "closing_date": "2026-08-17T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000335",
+    "purchase_request_id": "PR-2026-000335",
+    "issue_date": "2026-05-30T10:00:00",
+    "closing_date": "2026-06-13T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000336",
+    "purchase_request_id": "PR-2026-000336",
+    "issue_date": "2026-07-04T10:00:00",
+    "closing_date": "2026-07-18T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000337",
+    "purchase_request_id": "PR-2026-000337",
+    "issue_date": "2026-07-14T10:00:00",
+    "closing_date": "2026-07-28T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000338",
+    "purchase_request_id": "PR-2026-000338",
+    "issue_date": "2026-03-31T10:00:00",
+    "closing_date": "2026-04-14T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000339",
+    "purchase_request_id": "PR-2026-000339",
+    "issue_date": "2026-05-21T10:00:00",
+    "closing_date": "2026-06-04T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000340",
+    "purchase_request_id": "PR-2026-000340",
+    "issue_date": "2026-03-20T10:00:00",
+    "closing_date": "2026-04-03T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000341",
+    "purchase_request_id": "PR-2026-000341",
+    "issue_date": "2026-03-30T10:00:00",
+    "closing_date": "2026-04-13T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000342",
+    "purchase_request_id": "PR-2026-000342",
+    "issue_date": "2026-04-06T10:00:00",
+    "closing_date": "2026-04-20T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000343",
+    "purchase_request_id": "PR-2026-000343",
+    "issue_date": "2026-04-24T10:00:00",
+    "closing_date": "2026-05-08T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000344",
+    "purchase_request_id": "PR-2026-000344",
+    "issue_date": "2026-03-16T10:00:00",
+    "closing_date": "2026-03-30T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000345",
+    "purchase_request_id": "PR-2026-000345",
+    "issue_date": "2026-03-17T10:00:00",
+    "closing_date": "2026-03-31T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000346",
+    "purchase_request_id": "PR-2026-000346",
+    "issue_date": "2026-03-18T10:00:00",
+    "closing_date": "2026-04-01T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000347",
+    "purchase_request_id": "PR-2026-000347",
+    "issue_date": "2026-03-19T10:00:00",
+    "closing_date": "2026-04-02T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000348",
+    "purchase_request_id": "PR-2026-000348",
+    "issue_date": "2026-04-22T10:00:00",
+    "closing_date": "2026-05-06T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000349",
+    "purchase_request_id": "PR-2026-000349",
+    "issue_date": "2026-03-21T10:00:00",
+    "closing_date": "2026-04-04T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000350",
+    "purchase_request_id": "PR-2026-000350",
+    "issue_date": "2026-03-22T10:00:00",
+    "closing_date": "2026-04-05T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000351",
+    "purchase_request_id": "PR-2026-000351",
+    "issue_date": "2026-07-24T10:00:00",
+    "closing_date": "2026-08-07T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000352",
+    "purchase_request_id": "PR-2026-000352",
+    "issue_date": "2026-03-24T10:00:00",
+    "closing_date": "2026-04-07T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000353",
+    "purchase_request_id": "PR-2026-000353",
+    "issue_date": "2026-05-02T10:00:00",
+    "closing_date": "2026-05-16T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000354",
+    "purchase_request_id": "PR-2026-000354",
+    "issue_date": "2026-04-24T10:00:00",
+    "closing_date": "2026-05-08T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000355",
+    "purchase_request_id": "PR-2026-000355",
+    "issue_date": "2026-04-06T10:00:00",
+    "closing_date": "2026-04-20T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000356",
+    "purchase_request_id": "PR-2026-000356",
+    "issue_date": "2026-05-04T10:00:00",
+    "closing_date": "2026-05-18T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000357",
+    "purchase_request_id": "PR-2026-000357",
+    "issue_date": "2026-08-05T10:00:00",
+    "closing_date": "2026-08-19T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000358",
+    "purchase_request_id": "PR-2026-000358",
+    "issue_date": "2026-03-30T10:00:00",
+    "closing_date": "2026-04-13T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000359",
+    "purchase_request_id": "PR-2026-000359",
+    "issue_date": "2026-03-31T10:00:00",
+    "closing_date": "2026-04-14T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000360",
+    "purchase_request_id": "PR-2026-000360",
+    "issue_date": "2026-04-01T10:00:00",
+    "closing_date": "2026-04-15T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000361",
+    "purchase_request_id": "PR-2026-000361",
+    "issue_date": "2026-06-06T10:00:00",
+    "closing_date": "2026-06-20T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000362",
+    "purchase_request_id": "PR-2026-000362",
+    "issue_date": "2026-04-03T10:00:00",
+    "closing_date": "2026-04-17T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000363",
+    "purchase_request_id": "PR-2026-000363",
+    "issue_date": "2026-04-10T10:00:00",
+    "closing_date": "2026-04-24T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000364",
+    "purchase_request_id": "PR-2026-000364",
+    "issue_date": "2026-06-26T10:00:00",
+    "closing_date": "2026-07-10T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000365",
+    "purchase_request_id": "PR-2026-000365",
+    "issue_date": "2026-04-06T10:00:00",
+    "closing_date": "2026-04-20T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000366",
+    "purchase_request_id": "PR-2026-000366",
+    "issue_date": "2026-07-02T10:00:00",
+    "closing_date": "2026-07-16T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000367",
+    "purchase_request_id": "PR-2026-000367",
+    "issue_date": "2026-05-31T10:00:00",
+    "closing_date": "2026-06-14T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000368",
+    "purchase_request_id": "PR-2026-000368",
+    "issue_date": "2026-05-08T10:00:00",
+    "closing_date": "2026-05-22T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000369",
+    "purchase_request_id": "PR-2026-000369",
+    "issue_date": "2026-05-18T10:00:00",
+    "closing_date": "2026-06-01T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000370",
+    "purchase_request_id": "PR-2026-000370",
+    "issue_date": "2026-04-11T10:00:00",
+    "closing_date": "2026-04-25T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000371",
+    "purchase_request_id": "PR-2026-000371",
+    "issue_date": "2026-04-27T10:00:00",
+    "closing_date": "2026-05-11T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000372",
+    "purchase_request_id": "PR-2026-000372",
+    "issue_date": "2026-04-13T10:00:00",
+    "closing_date": "2026-04-27T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000373",
+    "purchase_request_id": "PR-2026-000373",
+    "issue_date": "2026-04-14T10:00:00",
+    "closing_date": "2026-04-28T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000374",
+    "purchase_request_id": "PR-2026-000374",
+    "issue_date": "2026-04-21T10:00:00",
+    "closing_date": "2026-05-05T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000375",
+    "purchase_request_id": "PR-2026-000375",
+    "issue_date": "2026-05-08T10:00:00",
+    "closing_date": "2026-05-22T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000376",
+    "purchase_request_id": "PR-2026-000376",
+    "issue_date": "2026-04-17T10:00:00",
+    "closing_date": "2026-05-01T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000377",
+    "purchase_request_id": "PR-2026-000377",
+    "issue_date": "2026-05-22T10:00:00",
+    "closing_date": "2026-06-05T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000378",
+    "purchase_request_id": "PR-2026-000378",
+    "issue_date": "2026-05-22T10:00:00",
+    "closing_date": "2026-06-05T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000379",
+    "purchase_request_id": "PR-2026-000379",
+    "issue_date": "2026-05-08T10:00:00",
+    "closing_date": "2026-05-22T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000380",
+    "purchase_request_id": "PR-2026-000380",
+    "issue_date": "2026-07-30T10:00:00",
+    "closing_date": "2026-08-13T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000381",
+    "purchase_request_id": "PR-2026-000381",
+    "issue_date": "2026-04-22T10:00:00",
+    "closing_date": "2026-05-06T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000382",
+    "purchase_request_id": "PR-2026-000382",
+    "issue_date": "2026-04-23T10:00:00",
+    "closing_date": "2026-05-07T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000383",
+    "purchase_request_id": "PR-2026-000383",
+    "issue_date": "2026-04-24T10:00:00",
+    "closing_date": "2026-05-08T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000384",
+    "purchase_request_id": "PR-2026-000384",
+    "issue_date": "2026-07-28T10:00:00",
+    "closing_date": "2026-08-11T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000385",
+    "purchase_request_id": "PR-2026-000385",
+    "issue_date": "2026-08-07T10:00:00",
+    "closing_date": "2026-08-21T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000386",
+    "purchase_request_id": "PR-2026-000386",
+    "issue_date": "2026-04-27T10:00:00",
+    "closing_date": "2026-05-11T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000387",
+    "purchase_request_id": "PR-2026-000387",
+    "issue_date": "2026-05-13T10:00:00",
+    "closing_date": "2026-05-27T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000388",
+    "purchase_request_id": "PR-2026-000388",
+    "issue_date": "2026-05-08T10:00:00",
+    "closing_date": "2026-05-22T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000389",
+    "purchase_request_id": "PR-2026-000389",
+    "issue_date": "2026-04-30T10:00:00",
+    "closing_date": "2026-05-14T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000390",
+    "purchase_request_id": "PR-2026-000390",
+    "issue_date": "2026-05-01T10:00:00",
+    "closing_date": "2026-05-15T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000391",
+    "purchase_request_id": "PR-2026-000391",
+    "issue_date": "2026-05-03T10:00:00",
+    "closing_date": "2026-05-17T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000392",
+    "purchase_request_id": "PR-2026-000392",
+    "issue_date": "2026-05-03T10:00:00",
+    "closing_date": "2026-05-17T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000393",
+    "purchase_request_id": "PR-2026-000393",
+    "issue_date": "2026-05-29T10:00:00",
+    "closing_date": "2026-06-12T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000394",
+    "purchase_request_id": "PR-2026-000394",
+    "issue_date": "2026-05-19T10:00:00",
+    "closing_date": "2026-06-02T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000395",
+    "purchase_request_id": "PR-2026-000395",
+    "issue_date": "2026-06-09T10:00:00",
+    "closing_date": "2026-06-23T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000396",
+    "purchase_request_id": "PR-2026-000396",
+    "issue_date": "2026-05-07T10:00:00",
+    "closing_date": "2026-05-21T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000397",
+    "purchase_request_id": "PR-2026-000397",
+    "issue_date": "2026-05-08T10:00:00",
+    "closing_date": "2026-05-22T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000398",
+    "purchase_request_id": "PR-2026-000398",
+    "issue_date": "2026-05-09T10:00:00",
+    "closing_date": "2026-05-23T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000399",
+    "purchase_request_id": "PR-2026-000399",
+    "issue_date": "2026-08-09T10:00:00",
+    "closing_date": "2026-08-23T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000400",
+    "purchase_request_id": "PR-2026-000400",
+    "issue_date": "2026-05-11T10:00:00",
+    "closing_date": "2026-05-25T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000401",
+    "purchase_request_id": "PR-2026-000401",
+    "issue_date": "2026-05-12T10:00:00",
+    "closing_date": "2026-05-26T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000402",
+    "purchase_request_id": "PR-2026-000402",
+    "issue_date": "2026-07-17T10:00:00",
+    "closing_date": "2026-07-31T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000403",
+    "purchase_request_id": "PR-2026-000403",
+    "issue_date": "2026-05-18T10:00:00",
+    "closing_date": "2026-06-01T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000404",
+    "purchase_request_id": "PR-2026-000404",
+    "issue_date": "2026-05-15T10:00:00",
+    "closing_date": "2026-05-29T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000405",
+    "purchase_request_id": "PR-2026-000405",
+    "issue_date": "2026-07-01T10:00:00",
+    "closing_date": "2026-07-15T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000406",
+    "purchase_request_id": "PR-2026-000406",
+    "issue_date": "2026-05-17T10:00:00",
+    "closing_date": "2026-05-31T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000407",
+    "purchase_request_id": "PR-2026-000407",
+    "issue_date": "2026-05-18T10:00:00",
+    "closing_date": "2026-06-01T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000408",
+    "purchase_request_id": "PR-2026-000408",
+    "issue_date": "2026-05-19T10:00:00",
+    "closing_date": "2026-06-02T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000409",
+    "purchase_request_id": "PR-2026-000409",
+    "issue_date": "2026-08-10T10:00:00",
+    "closing_date": "2026-08-24T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000410",
+    "purchase_request_id": "PR-2026-000410",
+    "issue_date": "2026-05-21T10:00:00",
+    "closing_date": "2026-06-04T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000411",
+    "purchase_request_id": "PR-2026-000411",
+    "issue_date": "2026-06-16T10:00:00",
+    "closing_date": "2026-06-30T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000412",
+    "purchase_request_id": "PR-2026-000412",
+    "issue_date": "2026-08-03T10:00:00",
+    "closing_date": "2026-08-17T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000413",
+    "purchase_request_id": "PR-2026-000413",
+    "issue_date": "2026-05-24T10:00:00",
+    "closing_date": "2026-06-07T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000414",
+    "purchase_request_id": "PR-2026-000414",
+    "issue_date": "2026-05-25T10:00:00",
+    "closing_date": "2026-06-08T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000415",
+    "purchase_request_id": "PR-2026-000415",
+    "issue_date": "2026-05-26T10:00:00",
+    "closing_date": "2026-06-09T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000416",
+    "purchase_request_id": "PR-2026-000416",
+    "issue_date": "2026-05-27T10:00:00",
+    "closing_date": "2026-06-10T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000417",
+    "purchase_request_id": "PR-2026-000417",
+    "issue_date": "2026-05-28T10:00:00",
+    "closing_date": "2026-06-11T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000418",
+    "purchase_request_id": "PR-2026-000418",
+    "issue_date": "2026-05-29T10:00:00",
+    "closing_date": "2026-06-12T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000419",
+    "purchase_request_id": "PR-2026-000419",
+    "issue_date": "2026-07-16T10:00:00",
+    "closing_date": "2026-07-30T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000420",
+    "purchase_request_id": "PR-2026-000420",
+    "issue_date": "2026-05-31T10:00:00",
+    "closing_date": "2026-06-14T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000421",
+    "purchase_request_id": "PR-2026-000421",
+    "issue_date": "2026-06-01T10:00:00",
+    "closing_date": "2026-06-15T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000422",
+    "purchase_request_id": "PR-2026-000422",
+    "issue_date": "2026-06-02T10:00:00",
+    "closing_date": "2026-06-16T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000423",
+    "purchase_request_id": "PR-2026-000423",
+    "issue_date": "2026-06-03T10:00:00",
+    "closing_date": "2026-06-17T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000424",
+    "purchase_request_id": "PR-2026-000424",
+    "issue_date": "2026-06-04T10:00:00",
+    "closing_date": "2026-06-18T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000425",
+    "purchase_request_id": "PR-2026-000425",
+    "issue_date": "2026-06-05T10:00:00",
+    "closing_date": "2026-06-19T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000426",
+    "purchase_request_id": "PR-2026-000426",
+    "issue_date": "2026-06-08T10:00:00",
+    "closing_date": "2026-06-22T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000427",
+    "purchase_request_id": "PR-2026-000427",
+    "issue_date": "2026-08-09T10:00:00",
+    "closing_date": "2026-08-23T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000428",
+    "purchase_request_id": "PR-2026-000428",
+    "issue_date": "2026-06-08T10:00:00",
+    "closing_date": "2026-06-22T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000429",
+    "purchase_request_id": "PR-2026-000429",
+    "issue_date": "2026-06-09T10:00:00",
+    "closing_date": "2026-06-23T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000430",
+    "purchase_request_id": "PR-2026-000430",
+    "issue_date": "2026-06-10T10:00:00",
+    "closing_date": "2026-06-24T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000431",
+    "purchase_request_id": "PR-2026-000431",
+    "issue_date": "2026-06-11T10:00:00",
+    "closing_date": "2026-06-25T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000432",
+    "purchase_request_id": "PR-2026-000432",
+    "issue_date": "2026-07-31T10:00:00",
+    "closing_date": "2026-08-14T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000433",
+    "purchase_request_id": "PR-2026-000433",
+    "issue_date": "2026-06-13T10:00:00",
+    "closing_date": "2026-06-27T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000434",
+    "purchase_request_id": "PR-2026-000434",
+    "issue_date": "2026-06-14T10:00:00",
+    "closing_date": "2026-06-28T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000435",
+    "purchase_request_id": "PR-2026-000435",
+    "issue_date": "2026-06-15T10:00:00",
+    "closing_date": "2026-06-29T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000436",
+    "purchase_request_id": "PR-2026-000436",
+    "issue_date": "2026-06-16T10:00:00",
+    "closing_date": "2026-06-30T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000437",
+    "purchase_request_id": "PR-2026-000437",
+    "issue_date": "2026-06-17T10:00:00",
+    "closing_date": "2026-07-01T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000438",
+    "purchase_request_id": "PR-2026-000438",
+    "issue_date": "2026-06-18T10:00:00",
+    "closing_date": "2026-07-02T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000439",
+    "purchase_request_id": "PR-2026-000439",
+    "issue_date": "2026-06-19T10:00:00",
+    "closing_date": "2026-07-03T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000440",
+    "purchase_request_id": "PR-2026-000440",
+    "issue_date": "2026-06-20T10:00:00",
+    "closing_date": "2026-07-04T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000441",
+    "purchase_request_id": "PR-2026-000441",
+    "issue_date": "2026-06-21T10:00:00",
+    "closing_date": "2026-07-05T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000442",
+    "purchase_request_id": "PR-2026-000442",
+    "issue_date": "2026-06-22T10:00:00",
+    "closing_date": "2026-07-06T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000443",
+    "purchase_request_id": "PR-2026-000443",
+    "issue_date": "2026-06-23T10:00:00",
+    "closing_date": "2026-07-07T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000444",
+    "purchase_request_id": "PR-2026-000444",
+    "issue_date": "2026-06-28T10:00:00",
+    "closing_date": "2026-07-12T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000445",
+    "purchase_request_id": "PR-2026-000445",
+    "issue_date": "2026-06-25T10:00:00",
+    "closing_date": "2026-07-09T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000446",
+    "purchase_request_id": "PR-2026-000446",
+    "issue_date": "2026-06-26T10:00:00",
+    "closing_date": "2026-07-10T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000447",
+    "purchase_request_id": "PR-2026-000447",
+    "issue_date": "2026-06-27T10:00:00",
+    "closing_date": "2026-07-11T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000448",
+    "purchase_request_id": "PR-2026-000448",
+    "issue_date": "2026-06-28T10:00:00",
+    "closing_date": "2026-07-12T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000449",
+    "purchase_request_id": "PR-2026-000449",
+    "issue_date": "2026-07-09T10:00:00",
+    "closing_date": "2026-07-23T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000450",
+    "purchase_request_id": "PR-2026-000450",
+    "issue_date": "2026-02-09T10:00:00",
+    "closing_date": "2026-02-23T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000451",
+    "purchase_request_id": "PR-2026-000451",
+    "issue_date": "2026-02-23T10:00:00",
+    "closing_date": "2026-03-09T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000452",
+    "purchase_request_id": "PR-2026-000452",
+    "issue_date": "2026-04-30T10:00:00",
+    "closing_date": "2026-05-14T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000453",
+    "purchase_request_id": "PR-2026-000453",
+    "issue_date": "2026-05-26T10:00:00",
+    "closing_date": "2026-06-09T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000454",
+    "purchase_request_id": "PR-2026-000454",
+    "issue_date": "2026-06-06T10:00:00",
+    "closing_date": "2026-06-20T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000455",
+    "purchase_request_id": "PR-2026-000455",
+    "issue_date": "2026-02-05T10:00:00",
+    "closing_date": "2026-02-19T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000456",
+    "purchase_request_id": "PR-2026-000456",
+    "issue_date": "2026-07-25T10:00:00",
+    "closing_date": "2026-08-08T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000457",
+    "purchase_request_id": "PR-2026-000457",
+    "issue_date": "2026-08-09T10:00:00",
+    "closing_date": "2026-08-23T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000458",
+    "purchase_request_id": "PR-2026-000458",
+    "issue_date": "2026-06-10T10:00:00",
+    "closing_date": "2026-06-24T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000459",
+    "purchase_request_id": "PR-2026-000459",
+    "issue_date": "2026-07-12T10:00:00",
+    "closing_date": "2026-07-26T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000460",
+    "purchase_request_id": "PR-2026-000460",
+    "issue_date": "2026-08-07T10:00:00",
+    "closing_date": "2026-08-21T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000461",
+    "purchase_request_id": "PR-2026-000461",
+    "issue_date": "2026-07-03T10:00:00",
+    "closing_date": "2026-07-17T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000462",
+    "purchase_request_id": "PR-2026-000462",
+    "issue_date": "2026-08-08T10:00:00",
+    "closing_date": "2026-08-22T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000463",
+    "purchase_request_id": "PR-2026-000463",
+    "issue_date": "2026-02-13T10:00:00",
+    "closing_date": "2026-02-27T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000464",
+    "purchase_request_id": "PR-2026-000464",
+    "issue_date": "2026-03-25T10:00:00",
+    "closing_date": "2026-04-08T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000465",
+    "purchase_request_id": "PR-2026-000465",
+    "issue_date": "2026-02-15T10:00:00",
+    "closing_date": "2026-03-01T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000466",
+    "purchase_request_id": "PR-2026-000466",
+    "issue_date": "2026-08-06T10:00:00",
+    "closing_date": "2026-08-20T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000467",
+    "purchase_request_id": "PR-2026-000467",
+    "issue_date": "2026-02-18T10:00:00",
+    "closing_date": "2026-03-04T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000468",
+    "purchase_request_id": "PR-2026-000468",
+    "issue_date": "2026-03-09T10:00:00",
+    "closing_date": "2026-03-23T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000469",
+    "purchase_request_id": "PR-2026-000469",
+    "issue_date": "2026-07-15T10:00:00",
+    "closing_date": "2026-07-29T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000470",
+    "purchase_request_id": "PR-2026-000470",
+    "issue_date": "2026-02-25T10:00:00",
+    "closing_date": "2026-03-11T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000471",
+    "purchase_request_id": "PR-2026-000471",
+    "issue_date": "2026-08-05T10:00:00",
+    "closing_date": "2026-08-19T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000472",
+    "purchase_request_id": "PR-2026-000472",
+    "issue_date": "2026-05-07T10:00:00",
+    "closing_date": "2026-05-21T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000473",
+    "purchase_request_id": "PR-2026-000473",
+    "issue_date": "2026-03-13T10:00:00",
+    "closing_date": "2026-03-27T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000474",
+    "purchase_request_id": "PR-2026-000474",
+    "issue_date": "2026-07-18T10:00:00",
+    "closing_date": "2026-08-01T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000475",
+    "purchase_request_id": "PR-2026-000475",
+    "issue_date": "2026-02-25T10:00:00",
+    "closing_date": "2026-03-11T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000476",
+    "purchase_request_id": "PR-2026-000476",
+    "issue_date": "2026-06-02T10:00:00",
+    "closing_date": "2026-06-16T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000477",
+    "purchase_request_id": "PR-2026-000477",
+    "issue_date": "2026-03-22T10:00:00",
+    "closing_date": "2026-04-05T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000478",
+    "purchase_request_id": "PR-2026-000478",
+    "issue_date": "2026-03-08T10:00:00",
+    "closing_date": "2026-03-22T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000479",
+    "purchase_request_id": "PR-2026-000479",
+    "issue_date": "2026-03-01T10:00:00",
+    "closing_date": "2026-03-15T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000480",
+    "purchase_request_id": "PR-2026-000480",
+    "issue_date": "2026-07-07T10:00:00",
+    "closing_date": "2026-07-21T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000481",
+    "purchase_request_id": "PR-2026-000481",
+    "issue_date": "2026-05-04T10:00:00",
+    "closing_date": "2026-05-18T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000482",
+    "purchase_request_id": "PR-2026-000482",
+    "issue_date": "2026-03-04T10:00:00",
+    "closing_date": "2026-03-18T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000483",
+    "purchase_request_id": "PR-2026-000483",
+    "issue_date": "2026-03-26T10:00:00",
+    "closing_date": "2026-04-09T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000484",
+    "purchase_request_id": "PR-2026-000484",
+    "issue_date": "2026-05-12T10:00:00",
+    "closing_date": "2026-05-26T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000485",
+    "purchase_request_id": "PR-2026-000485",
+    "issue_date": "2026-03-07T10:00:00",
+    "closing_date": "2026-03-21T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000486",
+    "purchase_request_id": "PR-2026-000486",
+    "issue_date": "2026-07-30T10:00:00",
+    "closing_date": "2026-08-13T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000487",
+    "purchase_request_id": "PR-2026-000487",
+    "issue_date": "2026-03-15T10:00:00",
+    "closing_date": "2026-03-29T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000488",
+    "purchase_request_id": "PR-2026-000488",
+    "issue_date": "2026-03-10T10:00:00",
+    "closing_date": "2026-03-24T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000489",
+    "purchase_request_id": "PR-2026-000489",
+    "issue_date": "2026-06-27T10:00:00",
+    "closing_date": "2026-07-11T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000490",
+    "purchase_request_id": "PR-2026-000490",
+    "issue_date": "2026-05-17T10:00:00",
+    "closing_date": "2026-05-31T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000491",
+    "purchase_request_id": "PR-2026-000491",
+    "issue_date": "2026-03-13T10:00:00",
+    "closing_date": "2026-03-27T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000492",
+    "purchase_request_id": "PR-2026-000492",
+    "issue_date": "2026-07-05T10:00:00",
+    "closing_date": "2026-07-19T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000493",
+    "purchase_request_id": "PR-2026-000493",
+    "issue_date": "2026-03-15T10:00:00",
+    "closing_date": "2026-03-29T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000494",
+    "purchase_request_id": "PR-2026-000494",
+    "issue_date": "2026-03-28T10:00:00",
+    "closing_date": "2026-04-11T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000495",
+    "purchase_request_id": "PR-2026-000495",
+    "issue_date": "2026-06-14T10:00:00",
+    "closing_date": "2026-06-28T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000496",
+    "purchase_request_id": "PR-2026-000496",
+    "issue_date": "2026-06-17T10:00:00",
+    "closing_date": "2026-07-01T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000497",
+    "purchase_request_id": "PR-2026-000497",
+    "issue_date": "2026-07-04T10:00:00",
+    "closing_date": "2026-07-18T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000498",
+    "purchase_request_id": "PR-2026-000498",
+    "issue_date": "2026-08-01T10:00:00",
+    "closing_date": "2026-08-15T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000499",
+    "purchase_request_id": "PR-2026-000499",
+    "issue_date": "2026-04-01T10:00:00",
+    "closing_date": "2026-04-15T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  },
+  {
+    "rfq_id": "RFQ-2026-000500",
+    "purchase_request_id": "PR-2026-000500",
+    "issue_date": "2026-06-16T10:00:00",
+    "closing_date": "2026-06-30T17:00:00",
+    "currency": "INR",
+    "sourcing_type": "COMPETITIVE",
+    "status": "AWARDED",
+    "minimum_quote_count": 3
+  }
+]

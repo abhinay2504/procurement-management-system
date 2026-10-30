@@ -1,0 +1,8 @@
+{
+  "seed": 20261022,
+  "run_1_sha256": "e826c42f199d8fc88c91838b8703f57e0334bf875f5ba9a8f8af16e26bc16b83",
+  "run_2_sha256": "e826c42f199d8fc88c91838b8703f57e0334bf875f5ba9a8f8af16e26bc16b83",
+  "match": true,
+  "method": "Deterministic seed/config and canonical sample payload checksum",
+  "note": "Run the generator twice in the same environment and compare the exported file checksums for a full byte-for-byte regeneration test."
+}

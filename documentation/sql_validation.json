@@ -1,0 +1,111 @@
+{
+  "passed": 21,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "foreign_key_integrity",
+      "status": "PASS",
+      "detail": "0 FK violations"
+    },
+    {
+      "check": "Requester_volume",
+      "status": "PASS",
+      "detail": "300 / 300"
+    },
+    {
+      "check": "Supplier_volume",
+      "status": "PASS",
+      "detail": "120 / 120"
+    },
+    {
+      "check": "PurchaseRequest_volume",
+      "status": "PASS",
+      "detail": "1200 / 1200"
+    },
+    {
+      "check": "RFQ_volume",
+      "status": "PASS",
+      "detail": "500 / 500"
+    },
+    {
+      "check": "SupplierQuote_volume",
+      "status": "PASS",
+      "detail": "1500 / 1500"
+    },
+    {
+      "check": "PurchaseOrder_volume",
+      "status": "PASS",
+      "detail": "900 / 900"
+    },
+    {
+      "check": "request_line_uniqueness",
+      "status": "PASS",
+      "detail": "0 duplicate request-line keys"
+    },
+    {
+      "check": "quote_landed_total",
+      "status": "PASS",
+      "detail": "0 violations"
+    },
+    {
+      "check": "po_total",
+      "status": "PASS",
+      "detail": "0 violations"
+    },
+    {
+      "check": "po_line_total",
+      "status": "PASS",
+      "detail": "0 violations"
+    },
+    {
+      "check": "quote_line_total",
+      "status": "PASS",
+      "detail": "0 violations"
+    },
+    {
+      "check": "competitive_quote_coverage",
+      "status": "PASS",
+      "detail": "0 violations"
+    },
+    {
+      "check": "delivery_bounds",
+      "status": "PASS",
+      "detail": "0 violations"
+    },
+    {
+      "check": "budget_over_reservation_count",
+      "status": "PASS",
+      "detail": "0 violations"
+    },
+    {
+      "check": "po_quote_line_mismatch",
+      "status": "PASS",
+      "detail": "0 violations"
+    },
+    {
+      "check": "request_po_date_order",
+      "status": "PASS",
+      "detail": "0 violations"
+    },
+    {
+      "check": "delivery_po_date_order",
+      "status": "PASS",
+      "detail": "0 violations"
+    },
+    {
+      "check": "rfq_request_date_order",
+      "status": "PASS",
+      "detail": "0 violations"
+    },
+    {
+      "check": "po_awarded_quote_line_value",
+      "status": "PASS",
+      "detail": "0 mismatched awarded quote lines"
+    },
+    {
+      "check": "budget_reservation_reconciliation",
+      "status": "PASS",
+      "detail": "0 reservation mismatches"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "department_id": "DEPT-001",
+    "department_name": "IT",
+    "cost_center": "CC-1001",
+    "is_active": true,
+    "effective_from": "2026-01-01",
+    "effective_to": ""
+  },
+  {
+    "department_id": "DEPT-002",
+    "department_name": "Finance",
+    "cost_center": "CC-1002",
+    "is_active": true,
+    "effective_from": "2026-01-01",
+    "effective_to": ""
+  },
+  {
+    "department_id": "DEPT-003",
+    "department_name": "Human Resources",
+    "cost_center": "CC-1003",
+    "is_active": true,
+    "effective_from": "2026-01-01",
+    "effective_to": ""
+  },
+  {
+    "department_id": "DEPT-004",
+    "department_name": "Operations",
+    "cost_center": "CC-1004",
+    "is_active": true,
+    "effective_from": "2026-01-01",
+    "effective_to": ""
+  },
+  {
+    "department_id": "DEPT-005",
+    "department_name": "Marketing",
+    "cost_center": "CC-1005",
+    "is_active": true,
+    "effective_from": "2026-01-01",
+    "effective_to": ""
+  },
+  {
+    "department_id": "DEPT-006",
+    "department_name": "Sales",
+    "cost_center": "CC-1006",
+    "is_active": true,
+    "effective_from": "2026-01-01",
+    "effective_to": ""
+  },
+  {
+    "department_id": "DEPT-007",
+    "department_name": "Research",
+    "cost_center": "CC-1007",
+    "is_active": true,
+    "effective_from": "2026-01-01",
+    "effective_to": ""
+  },
+  {
+    "department_id": "DEPT-008",
+    "department_name": "Legal",
+    "cost_center": "CC-1008",
+    "is_active": true,
+    "effective_from": "2026-01-01",
+    "effective_to": ""
+  },
+  {
+    "department_id": "DEPT-009",
+    "department_name": "Facilities",
+    "cost_center": "CC-1009",
+    "is_active": true,
+    "effective_from": "2026-01-01",
+    "effective_to": ""
+  },
+  {
+    "department_id": "DEPT-010",
+    "department_name": "Customer Support",
+    "cost_center": "CC-1010",
+    "is_active": true,
+    "effective_from": "2026-01-01",
+    "effective_to": ""
+  },
+  {
+    "department_id": "DEPT-011",
+    "department_name": "Security",
+    "cost_center": "CC-1011",
+    "is_active": true,
+    "effective_from": "2026-01-01",
+    "effective_to": ""
+  },
+  {
+    "department_id": "DEPT-012",
+    "department_name": "Procurement",
+    "cost_center": "CC-1012",
+    "is_active": true,
+    "effective_from": "2026-01-01",
+    "effective_to": ""
+  }
+]

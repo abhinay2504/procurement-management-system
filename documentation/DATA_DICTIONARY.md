@@ -1,0 +1,234 @@
+# Data Dictionary
+
+All records are synthetic. IDs are immutable; dates use ISO-8601; monetary values are INR unless stated otherwise. The SQLite schema enforces PK/FK and uniqueness where relationally expressible; the Python validator enforces cross-table and lifecycle rules.
+
+## Department
+
+| Field | Type / requiredness / validation |
+|---|---|
+| `department_id` | TEXT; required; primary key; immutable DEPT-NNN identifier. |
+| `department_name` | TEXT; required; unique; one of the synthetic department names. |
+| `cost_center` | TEXT; required; unique; CC-NNNN format. |
+| `is_active` | BOOLEAN; required; TRUE/FALSE. |
+| `effective_from` | DATE; required; ISO date. |
+| `effective_to` | DATE; optional; NULL while current; must be on/after effective_from. |
+
+## Requester
+
+| Field | Type / requiredness / validation |
+|---|---|
+| `requester_id` | TEXT; required; primary key; REQ-NNNN format. |
+| `full_name` | TEXT; required; synthetic employee label; not a real person's identity. |
+| `email` | TEXT; required; unique; reserved example.test domain. |
+| `department_id` | TEXT; required; FK to Department.department_id. |
+| `role` | ENUM; required; BUSINESS_REQUESTER. |
+| `is_active` | BOOLEAN; required. |
+| `effective_from` | DATE; required. |
+| `effective_to` | DATE; optional; NULL while current; not earlier than effective_from. |
+
+## Budget
+
+| Field | Type / requiredness / validation |
+|---|---|
+| `budget_id` | TEXT; required; primary key; BUD-NNN-2026 format. |
+| `department_id` | TEXT; required; FK to Department; one departmental budget per fiscal year in baseline. |
+| `fiscal_year` | INTEGER; required; 2026. |
+| `currency` | ENUM; required; INR. |
+| `allocated_amount` | DECIMAL(14,2); required; INR; > 0. |
+| `effective_from` | DATE; required. |
+| `effective_to` | DATE; required; on/after effective_from. |
+
+## Supplier
+
+| Field | Type / requiredness / validation |
+|---|---|
+| `supplier_id` | TEXT; required; primary key; SUP-NNN format. |
+| `supplier_code` | TEXT; required; unique; SNNN format. |
+| `supplier_name` | TEXT; required; synthetic supplier label. |
+| `country` | TEXT; required; India in baseline. |
+| `currency` | ENUM; required; INR baseline. |
+| `is_active` | BOOLEAN; required. |
+| `risk_flag` | ENUM; required; LOW, MEDIUM, HIGH. |
+| `risk_score` | INTEGER; required; 0..100; higher means greater risk. |
+| `effective_from` | DATE; required. |
+| `effective_to` | DATE; optional; NULL while current. |
+
+## PurchaseRequest
+
+| Field | Type / requiredness / validation |
+|---|---|
+| `purchase_request_id` | TEXT; required; primary key; PR-2026-NNNNNN format. |
+| `requester_id` | TEXT; required; FK to Requester. |
+| `department_id` | TEXT; required; FK to Department; must agree with Requester department. |
+| `budget_id` | TEXT; required; FK to Budget; must agree with Department and fiscal year. |
+| `request_date` | DATETIME; required; ISO-8601. |
+| `required_by_date` | DATE; required; on/after request date. |
+| `business_justification` | TEXT; required; non-empty. |
+| `currency` | ENUM; required; INR baseline. |
+| `estimated_total` | DECIMAL(14,2); required; non-negative; sum of RequestLine estimated_line_total. |
+| `status` | ENUM; required; DRAFT, SUBMITTED, APPROVED, REJECTED, CANCELLED. |
+| `duplicate_of_request_id` | TEXT; optional; self-FK to PurchaseRequest; only populated for known duplicate case. |
+| `split_group_id` | TEXT; optional; links related requests suspected of split purchasing. |
+
+## RequestLine
+
+| Field | Type / requiredness / validation |
+|---|---|
+| `request_line_id` | TEXT; required; primary key; PRL-request-counter format. |
+| `purchase_request_id` | TEXT; required; FK to PurchaseRequest. |
+| `line_number` | INTEGER; required; positive; unique within request. |
+| `item_description` | TEXT; required. |
+| `category` | ENUM; required; IT_HARDWARE, SOFTWARE, OFFICE_SUPPLIES, FACILITIES, PROFESSIONAL_SERVICES, NETWORKING. |
+| `quantity` | INTEGER; required; > 0. |
+| `unit_of_measure` | ENUM; required; EACH. |
+| `estimated_unit_price` | DECIMAL(14,2); required; >= 0; INR. |
+| `estimated_line_total` | DECIMAL(14,2); required; quantity x estimated_unit_price. |
+
+## RFQ
+
+| Field | Type / requiredness / validation |
+|---|---|
+| `rfq_id` | TEXT; required; primary key; RFQ-2026-NNNNNN format. |
+| `purchase_request_id` | TEXT; required; FK to PurchaseRequest; unique in this baseline. |
+| `issue_date` | DATETIME; required. |
+| `closing_date` | DATETIME; required; after issue_date. |
+| `currency` | ENUM; required; INR baseline. |
+| `sourcing_type` | ENUM; required; COMPETITIVE or SINGLE_SOURCE. |
+| `status` | ENUM; required; DRAFT, ISSUED, CLOSED, AWARDED, CANCELLED. |
+| `minimum_quote_count` | INTEGER; required; >= 1; 3 for competitive. |
+
+## RFQSupplier
+
+| Field | Type / requiredness / validation |
+|---|---|
+| `rfq_supplier_id` | TEXT; required; primary key. |
+| `rfq_id` | TEXT; required; FK to RFQ. |
+| `supplier_id` | TEXT; required; FK to Supplier. |
+| `invited_at` | DATETIME; required. |
+| `response_status` | ENUM; required; INVITED, RESPONDED, DECLINED. |
+| `composite uniqueness` | UNIQUE(rfq_id, supplier_id); implements RFQ N:M Supplier. |
+
+## SupplierQuote
+
+| Field | Type / requiredness / validation |
+|---|---|
+| `quote_id` | TEXT; required; primary key; QUO-supplier-code-2026-NNNNNN format. |
+| `rfq_id` | TEXT; required; FK to RFQ. |
+| `supplier_id` | TEXT; required; FK to Supplier. |
+| `quote_date` | DATETIME; required. |
+| `valid_until` | DATETIME; required; on/after quote_date; must cover award timestamp. |
+| `currency` | ENUM; required; INR in baseline; mismatch anomaly deliberately labelled. |
+| `subtotal` | DECIMAL(14,2); required; >= 0. |
+| `tax_amount` | DECIMAL(14,2); required; >= 0. |
+| `freight_amount` | DECIMAL(14,2); required; >= 0. |
+| `landed_total` | DECIMAL(14,2); required; subtotal + tax + freight. |
+| `delivery_days` | INTEGER; required; > 0. |
+| `status` | ENUM; required; RECEIVED, AWARDED, REJECTED, EXPIRED. |
+| `award_rationale` | TEXT; optional; required when selected quote is not lowest eligible landed cost. |
+| `is_selected` | BOOLEAN; required; only one selected quote per awarded RFQ. |
+
+## QuoteLine
+
+| Field | Type / requiredness / validation |
+|---|---|
+| `quote_line_id` | TEXT; required; primary key. |
+| `quote_id` | TEXT; required; FK to SupplierQuote. |
+| `request_line_id` | TEXT; required; FK to RequestLine. |
+| `quantity` | INTEGER; required; must match requested quantity. |
+| `unit_price` | DECIMAL(14,2); required; >= 0. |
+| `line_total` | DECIMAL(14,2); required; quantity x unit_price. |
+
+## Approval
+
+| Field | Type / requiredness / validation |
+|---|---|
+| `approval_id` | TEXT; required; primary key. |
+| `purchase_request_id` | TEXT; required; FK to PurchaseRequest. |
+| `approver_role` | ENUM; DEPARTMENT_MANAGER, FINANCE, EXECUTIVE. |
+| `decision` | ENUM; APPROVED, REJECTED, PENDING. |
+| `decision_date` | DATETIME; required. |
+| `threshold_rule` | ENUM; DEPT_ONLY, DEPT_FINANCE, DEPT_FINANCE_EXEC. |
+| `comments` | TEXT; required; decision context. |
+
+## PurchaseOrder
+
+| Field | Type / requiredness / validation |
+|---|---|
+| `purchase_order_id` | TEXT; required; primary key; PO-2026-NNNNNN format. |
+| `purchase_request_id` | TEXT; required; FK to PurchaseRequest; unique in baseline. |
+| `supplier_id` | TEXT; required; FK to Supplier. |
+| `rfq_id` | TEXT; optional; FK to RFQ; NULL for single-source. |
+| `awarded_quote_id` | TEXT; optional; FK to SupplierQuote; NULL for single-source. |
+| `po_date` | DATETIME; required. |
+| `currency` | ENUM; required; INR baseline. |
+| `subtotal` | DECIMAL(14,2); required; >= 0. |
+| `tax_amount` | DECIMAL(14,2); required; >= 0. |
+| `freight_amount` | DECIMAL(14,2); required; >= 0. |
+| `po_total` | DECIMAL(14,2); required; subtotal + tax + freight. |
+| `approval_status` | ENUM; APPROVED or NOT_APPROVED. |
+| `status` | ENUM; DRAFT, ISSUED, CLOSED, CANCELLED. |
+| `award_rationale` | TEXT; required for single-source or non-lowest award exceptions. |
+| `payment_terms` | ENUM; NET_30 in baseline. |
+
+## PurchaseOrderLine
+
+| Field | Type / requiredness / validation |
+|---|---|
+| `po_line_id` | TEXT; required; primary key. |
+| `purchase_order_id` | TEXT; required; FK to PurchaseOrder. |
+| `request_line_id` | TEXT; required; FK to RequestLine. |
+| `description` | TEXT; required. |
+| `quantity_ordered` | INTEGER; required; > 0; matches request/quote quantity. |
+| `unit_price` | DECIMAL(14,2); required; >= 0. |
+| `line_total` | DECIMAL(14,2); required; quantity x unit_price. |
+
+## Delivery
+
+| Field | Type / requiredness / validation |
+|---|---|
+| `delivery_id` | TEXT; required; primary key; DEL-PO-id-NN format. |
+| `purchase_order_id` | TEXT; required; FK to PurchaseOrder. |
+| `supplier_id` | TEXT; required; FK to Supplier. |
+| `delivery_date` | DATETIME; required. |
+| `quantity_ordered` | INTEGER; required; > 0. |
+| `quantity_received` | INTEGER; required; between 0 and ordered per delivery event; cumulative receipts <= PO line quantity. |
+| `delivery_status` | ENUM; PARTIAL, DELIVERED, REJECTED. |
+| `inspection_status` | ENUM; PENDING, PASSED, FAILED. |
+| `delivery_exception_reason` | TEXT; optional; populated for partial delivery events. |
+
+## BudgetTransaction
+
+| Field | Type / requiredness / validation |
+|---|---|
+| `budget_transaction_id` | TEXT; required; primary key. |
+| `budget_id` | TEXT; required; FK to Budget. |
+| `purchase_order_id` | TEXT; required; FK to PurchaseOrder. |
+| `transaction_type` | ENUM; RESERVATION, RELEASE, ACTUAL. |
+| `amount` | DECIMAL(14,2); required; >= 0; INR. |
+| `currency` | ENUM; required; INR. |
+| `transaction_date` | DATETIME; required. |
+
+## StatusEvent
+
+| Field | Type / requiredness / validation |
+|---|---|
+| `event_id` | TEXT; required; primary key. |
+| `entity_type` | TEXT; required; event subject type. |
+| `entity_id` | TEXT; required; identifier of subject; validated against entity tables by application logic. |
+| `from_status` | TEXT; optional; prior state. |
+| `to_status` | TEXT; required; new state. |
+| `event_time` | DATETIME; required. |
+| `actor_role` | TEXT; required. |
+| `reason` | TEXT; required; transition explanation. |
+
+## AuditLog
+
+| Field | Type / requiredness / validation |
+|---|---|
+| `audit_id` | TEXT; required; primary key. |
+| `entity_type` | TEXT; required. |
+| `entity_id` | TEXT; required; entity identifier. |
+| `action` | TEXT; required; CREATE, ISSUE, STATE_CHANGE, etc. |
+| `actor_id` | TEXT; required. |
+| `event_time` | DATETIME; required. |
+| `details` | TEXT; required; immutable audit description. |
