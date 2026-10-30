@@ -37,3 +37,4 @@ htmlcov/
 
 # Generated reproducibility temporary files
 reproducibility/temp/
+generated_full/
