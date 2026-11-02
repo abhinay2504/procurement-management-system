@@ -32,6 +32,12 @@ class ProcurementService:
             changed_at TEXT NOT NULL,
             actor_role TEXT NOT NULL,
             comments TEXT NOT NULL)""")
+        self.con.execute("""CREATE TRIGGER IF NOT EXISTS ApprovalHistory_no_update
+            BEFORE UPDATE ON ApprovalHistory BEGIN
+            SELECT RAISE(ABORT, 'ApprovalHistory is append-only'); END""")
+        self.con.execute("""CREATE TRIGGER IF NOT EXISTS ApprovalHistory_no_delete
+            BEFORE DELETE ON ApprovalHistory BEGIN
+            SELECT RAISE(ABORT, 'ApprovalHistory is append-only'); END""")
         self.con.commit()
 
     def close(self): self.con.close()
