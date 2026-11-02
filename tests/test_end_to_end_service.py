@@ -28,9 +28,11 @@ def main():
             history=svc.con.execute("""SELECT prior_decision,decision,actor_role FROM ApprovalHistory
                 WHERE purchase_request_id=? AND approver_role='DEPARTMENT_MANAGER'
                 ORDER BY rowid""",(pr_id,)).fetchall()
-            assert len(history)==1 and history[0]["prior_decision"]=="PENDING"
-            assert history[0]["decision"]=="APPROVED"
-            assert history[0]["actor_role"]=="DEPARTMENT_MANAGER"
+            assert len(history)==2, [tuple(x) for x in history]
+            assert history[0]["prior_decision"] is None and history[0]["decision"]=="PENDING"
+            assert history[1]["prior_decision"]=="PENDING" and history[1]["decision"]=="APPROVED"
+            assert history[0]["actor_role"]=="SYSTEM"
+            assert history[1]["actor_role"]=="DEPARTMENT_MANAGER"
             rfq=svc.create_rfq(pr_id,["SUP-001","SUP-002","SUP-003"],"2026-11-15T17:00:00","2026-10-30T12:00:00")
             line=svc.con.execute("SELECT request_line_id FROM RequestLine WHERE purchase_request_id=?",(pr_id,)).fetchone()[0]
             quotes=[]
