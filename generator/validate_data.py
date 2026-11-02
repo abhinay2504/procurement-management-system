@@ -53,6 +53,19 @@ def main():
       WHERE bt.transaction_type='RESERVATION' AND
         (bt.budget_id!=r.budget_id OR ABS(bt.amount-p.po_total)>0.02)""").fetchone()[0]
     add("budget_reservation_reconciliation",budget_mismatch==0,f"{budget_mismatch} reservation mismatches")
+    missing_history=con.execute("""SELECT COUNT(*) FROM Approval a
+        WHERE NOT EXISTS (SELECT 1 FROM ApprovalHistory h WHERE h.approval_id=a.approval_id)""").fetchone()[0]
+    add("approval_history_coverage",missing_history==0,f"{missing_history} approvals without history")
+    history_mismatch=con.execute("""SELECT COUNT(*) FROM Approval a WHERE
+        (SELECT h.decision FROM ApprovalHistory h WHERE h.approval_id=a.approval_id
+         ORDER BY h.changed_at DESC,h.approval_history_id DESC LIMIT 1) != a.decision""").fetchone()[0]
+    add("approval_history_current_state",history_mismatch==0,
+        f"{history_mismatch} approval projections differ from latest history event")
+    trigger_names={x[0] for x in con.execute(
+        "SELECT name FROM sqlite_master WHERE type='trigger' AND name LIKE 'ApprovalHistory_no_%'")}
+    add("approval_history_immutable_triggers",
+        trigger_names=={"ApprovalHistory_no_update","ApprovalHistory_no_delete"},
+        f"Found triggers: {sorted(trigger_names)}")
     con.close()
     result={"passed":sum(x["status"]=="PASS" for x in checks),
             "failed":sum(x["status"]=="FAIL" for x in checks),"checks":checks}
