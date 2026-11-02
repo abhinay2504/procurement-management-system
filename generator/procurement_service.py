@@ -76,8 +76,14 @@ class ProcurementService:
                 (line_id,pr_id,i,line["item_description"],line["category"],qty,
                  line.get("unit_of_measure","EACH"),unit,round(qty*unit,2)))
         for i,role in enumerate(roles,1):
+            approval_id=f"APR-{pr_id[-6:]}-{i:02d}"
             cur.execute("INSERT INTO Approval VALUES (?,?,?,?,?,?,?)",
-                (f"APR-{pr_id[-6:]}-{i:02d}",pr_id,role,"PENDING",now,rule,"Awaiting decision"))
+                (approval_id,pr_id,role,"PENDING",now,rule,"Awaiting decision"))
+            history_id=self._next("ApprovalHistory","approval_history_id","APRH-",8)
+            cur.execute("""INSERT INTO ApprovalHistory
+                (approval_history_id,approval_id,purchase_request_id,approver_role,prior_decision,
+                 decision,changed_at,actor_role,comments) VALUES (?,?,?,?,?,?,?,?,?)""",
+                (history_id,approval_id,pr_id,role,None,"PENDING",now,"SYSTEM","Approval step created"))
         self._event("PURCHASE_REQUEST",pr_id,"DRAFT","SUBMITTED",requester_id,"Request submitted",now)
         self.con.commit()
         return {"purchase_request_id":pr_id,"estimated_total":total,"required_approvers":roles,"threshold_rule":rule}
