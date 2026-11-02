@@ -1,0 +1,32 @@
+name: Procurement acceptance suite
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main, "improvements/**"]
+
+jobs:
+  acceptance:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compile Python sources
+        run: python -m compileall -q generator tests analytics
+      - name: Generate full dataset
+        run: python generator/generate_data.py --seed 20261022 --scale full --output build/full
+      - name: Generate starter dataset
+        run: python generator/generate_data.py --seed 20261022 --scale starter --output build/starter
+      - name: Validate full SQLite database
+        run: python generator/validate_data.py --db build/full/database/procurement.db --report build/full/documentation/sql_validation.json
+      - name: Evaluate procurement metrics
+        run: python analytics/evaluate_procurement.py --db build/full/database/procurement.db --output build/full/analytics
+      - name: Run end-to-end service tests
+        run: python tests/test_end_to_end_service.py --db build/full/database/procurement.db
+      - name: Verify deterministic regeneration
+        run: python reproducibility/run_reproducibility_test.py --seed 20261022 --scale full --output build/reproducibility_test.json
