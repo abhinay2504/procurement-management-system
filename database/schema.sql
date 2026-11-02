@@ -17,3 +17,6 @@ CREATE TABLE Delivery(delivery_id TEXT PRIMARY KEY, purchase_order_id TEXT NOT N
 CREATE TABLE BudgetTransaction(budget_transaction_id TEXT PRIMARY KEY, budget_id TEXT NOT NULL REFERENCES Budget, purchase_order_id TEXT NOT NULL REFERENCES PurchaseOrder, transaction_type TEXT NOT NULL, amount REAL NOT NULL, currency TEXT NOT NULL, transaction_date TEXT NOT NULL);
 CREATE TABLE StatusEvent(event_id TEXT PRIMARY KEY, entity_type TEXT NOT NULL, entity_id TEXT NOT NULL, from_status TEXT, to_status TEXT NOT NULL, event_time TEXT NOT NULL, actor_role TEXT NOT NULL, reason TEXT);
 CREATE TABLE AuditLog(audit_id TEXT PRIMARY KEY, entity_type TEXT NOT NULL, entity_id TEXT NOT NULL, action TEXT NOT NULL, actor_id TEXT NOT NULL, event_time TEXT NOT NULL, details TEXT);
+
+CREATE TRIGGER ApprovalHistory_no_update BEFORE UPDATE ON ApprovalHistory BEGIN SELECT RAISE(ABORT, 'ApprovalHistory is append-only'); END;
+CREATE TRIGGER ApprovalHistory_no_delete BEFORE DELETE ON ApprovalHistory BEGIN SELECT RAISE(ABORT, 'ApprovalHistory is append-only'); END;
