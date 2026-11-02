@@ -25,7 +25,7 @@ def main():
             svc.decide_approval(pr_id,"DEPARTMENT_MANAGER","APPROVED","Department approved","2026-10-30T10:00:00")
             state=svc.decide_approval(pr_id,"FINANCE","APPROVED","Finance approved","2026-10-30T11:00:00")
             assert state=="APPROVED",state
-            history=svc.con.execute("""SELECT prior_decision,decision,actor_role FROM ApprovalHistory
+            history=svc.con.execute("""SELECT approval_history_id,prior_decision,decision,actor_role FROM ApprovalHistory
                 WHERE purchase_request_id=? AND approver_role='DEPARTMENT_MANAGER'
                 ORDER BY rowid""",(pr_id,)).fetchall()
             assert len(history)==2, [tuple(x) for x in history]
