@@ -22,6 +22,17 @@ class ProcurementService:
         self.con=sqlite3.connect(self.db_path)
         self.con.row_factory=sqlite3.Row
         self.con.execute("PRAGMA foreign_keys=ON")
+        self.con.execute("""CREATE TABLE IF NOT EXISTS ApprovalHistory(
+            approval_history_id TEXT PRIMARY KEY,
+            approval_id TEXT NOT NULL REFERENCES Approval,
+            purchase_request_id TEXT NOT NULL REFERENCES PurchaseRequest,
+            approver_role TEXT NOT NULL,
+            prior_decision TEXT,
+            decision TEXT NOT NULL CHECK(decision IN ('APPROVED','REJECTED','PENDING')),
+            changed_at TEXT NOT NULL,
+            actor_role TEXT NOT NULL,
+            comments TEXT NOT NULL)""")
+        self.con.commit()
 
     def close(self): self.con.close()
 
@@ -81,6 +92,12 @@ class ProcurementService:
             WHERE purchase_request_id=? AND approver_role=?""",(purchase_request_id,approver_role)).fetchone()
         if not appr: raise ValueError("Approver role is not required by the approval matrix")
         if appr["decision"]!="PENDING": raise ValueError("Approval has already been decided")
+        history_id=self._next("ApprovalHistory","approval_history_id","APRH-",8)
+        cur.execute("""INSERT INTO ApprovalHistory
+            (approval_history_id,approval_id,purchase_request_id,approver_role,prior_decision,
+             decision,changed_at,actor_role,comments) VALUES (?,?,?,?,?,?,?,?,?)""",
+            (history_id,appr["approval_id"],purchase_request_id,approver_role,
+             appr["decision"],decision,now,approver_role,comments or f"Approval {decision.lower()}"))
         cur.execute("UPDATE Approval SET decision=?,decision_date=?,comments=? WHERE approval_id=?",
                     (decision,now,comments,appr["approval_id"]))
         if decision=="REJECTED":
