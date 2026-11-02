@@ -232,3 +232,27 @@ All records are synthetic. IDs are immutable; dates use ISO-8601; monetary value
 | `actor_id` | TEXT; required. |
 | `event_time` | DATETIME; required. |
 | `details` | TEXT; required; immutable audit description. |
+
+## ApprovalHistory (append-only decision history)
+
+| Field | Type / requiredness / validation |
+|---|---|
+| `approval_history_id` | TEXT; required; primary key; immutable APRH-NNNNNNNN identifier. |
+| `approval_id` | TEXT; required; FK to Approval.approval_id. |
+| `purchase_request_id` | TEXT; required; FK to PurchaseRequest.purchase_request_id. |
+| `approver_role` | ENUM; required; DEPARTMENT_MANAGER, FINANCE or EXECUTIVE; must match the approval step. |
+| `prior_decision` | ENUM; optional for initial creation; otherwise APPROVED, REJECTED or PENDING. |
+| `decision` | ENUM; required; APPROVED, REJECTED or PENDING. |
+| `changed_at` | DATETIME; required; ISO-8601. |
+| `actor_role` | TEXT; required; SYSTEM for step creation or the deciding approver role. |
+| `comments` | TEXT; required; non-empty event explanation. |
+
+Approval is the current-state projection retained for existing workflow queries. ApprovalHistory is append-only and records step creation and every decision without rewriting prior events.
+
+## Field contract conventions
+
+- Identifiers are immutable TEXT primary keys unless a composite uniqueness rule is explicitly documented.
+- Dates and timestamps use ISO-8601. Monetary amounts are INR unless a labelled currency exception is present; quantities use EACH unless otherwise specified.
+- Boolean values are stored as SQLite integers 0/1.
+- ENUM fields accept only the values documented for that field. Required fields must be non-null and non-empty; optional fields may be NULL/empty as documented.
+- Unique fields and parent-pair bridge constraints must not repeat. Monetary calculations reconcile within INR 0.02 rounding tolerance.
