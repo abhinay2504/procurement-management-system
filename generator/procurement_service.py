@@ -22,6 +22,23 @@ class ProcurementService:
         self.con=sqlite3.connect(self.db_path)
         self.con.row_factory=sqlite3.Row
         self.con.execute("PRAGMA foreign_keys=ON")
+        self.con.execute("""CREATE TABLE IF NOT EXISTS ApprovalHistory(
+            approval_history_id TEXT PRIMARY KEY,
+            approval_id TEXT NOT NULL REFERENCES Approval,
+            purchase_request_id TEXT NOT NULL REFERENCES PurchaseRequest,
+            approver_role TEXT NOT NULL,
+            prior_decision TEXT,
+            decision TEXT NOT NULL CHECK(decision IN ('APPROVED','REJECTED','PENDING')),
+            changed_at TEXT NOT NULL,
+            actor_role TEXT NOT NULL,
+            comments TEXT NOT NULL)""")
+        self.con.execute("""CREATE TRIGGER IF NOT EXISTS ApprovalHistory_no_update
+            BEFORE UPDATE ON ApprovalHistory BEGIN
+            SELECT RAISE(ABORT, 'ApprovalHistory is append-only'); END""")
+        self.con.execute("""CREATE TRIGGER IF NOT EXISTS ApprovalHistory_no_delete
+            BEFORE DELETE ON ApprovalHistory BEGIN
+            SELECT RAISE(ABORT, 'ApprovalHistory is append-only'); END""")
+        self.con.commit()
 
     def close(self): self.con.close()
 
@@ -65,8 +82,14 @@ class ProcurementService:
                 (line_id,pr_id,i,line["item_description"],line["category"],qty,
                  line.get("unit_of_measure","EACH"),unit,round(qty*unit,2)))
         for i,role in enumerate(roles,1):
+            approval_id=f"APR-{pr_id[-6:]}-{i:02d}"
             cur.execute("INSERT INTO Approval VALUES (?,?,?,?,?,?,?)",
-                (f"APR-{pr_id[-6:]}-{i:02d}",pr_id,role,"PENDING",now,rule,"Awaiting decision"))
+                (approval_id,pr_id,role,"PENDING",now,rule,"Awaiting decision"))
+            history_id=self._next("ApprovalHistory","approval_history_id","APRH-",8)
+            cur.execute("""INSERT INTO ApprovalHistory
+                (approval_history_id,approval_id,purchase_request_id,approver_role,prior_decision,
+                 decision,changed_at,actor_role,comments) VALUES (?,?,?,?,?,?,?,?,?)""",
+                (history_id,approval_id,pr_id,role,None,"PENDING",now,"SYSTEM","Approval step created"))
         self._event("PURCHASE_REQUEST",pr_id,"DRAFT","SUBMITTED",requester_id,"Request submitted",now)
         self.con.commit()
         return {"purchase_request_id":pr_id,"estimated_total":total,"required_approvers":roles,"threshold_rule":rule}
@@ -81,6 +104,12 @@ class ProcurementService:
             WHERE purchase_request_id=? AND approver_role=?""",(purchase_request_id,approver_role)).fetchone()
         if not appr: raise ValueError("Approver role is not required by the approval matrix")
         if appr["decision"]!="PENDING": raise ValueError("Approval has already been decided")
+        history_id=self._next("ApprovalHistory","approval_history_id","APRH-",8)
+        cur.execute("""INSERT INTO ApprovalHistory
+            (approval_history_id,approval_id,purchase_request_id,approver_role,prior_decision,
+             decision,changed_at,actor_role,comments) VALUES (?,?,?,?,?,?,?,?,?)""",
+            (history_id,appr["approval_id"],purchase_request_id,approver_role,
+             appr["decision"],decision,now,approver_role,comments or f"Approval {decision.lower()}"))
         cur.execute("UPDATE Approval SET decision=?,decision_date=?,comments=? WHERE approval_id=?",
                     (decision,now,comments,appr["approval_id"]))
         if decision=="REJECTED":
