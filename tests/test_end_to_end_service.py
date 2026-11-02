@@ -33,6 +33,13 @@ def main():
             assert history[1]["prior_decision"]=="PENDING" and history[1]["decision"]=="APPROVED"
             assert history[0]["actor_role"]=="SYSTEM"
             assert history[1]["actor_role"]=="DEPARTMENT_MANAGER"
+            immutable=False
+            try:
+                svc.con.execute("UPDATE ApprovalHistory SET comments='tampered' WHERE approval_history_id=?",
+                                (history[0]["approval_history_id"],))
+            except sqlite3.IntegrityError:
+                immutable=True
+            assert immutable, "ApprovalHistory allowed an UPDATE"
             rfq=svc.create_rfq(pr_id,["SUP-001","SUP-002","SUP-003"],"2026-11-15T17:00:00","2026-10-30T12:00:00")
             line=svc.con.execute("SELECT request_line_id FROM RequestLine WHERE purchase_request_id=?",(pr_id,)).fetchone()[0]
             quotes=[]
