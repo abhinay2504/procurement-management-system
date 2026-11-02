@@ -71,7 +71,7 @@ def make_data(seed, scale):
             "is_active":not inactive,"risk_flag":"HIGH" if high else ("MEDIUM" if i%7==0 else "LOW"),
             "risk_score":85 if high else (55 if i%7==0 else 20),
             "effective_from":"2025-01-01","effective_to":""})
-    requests=[]; request_lines=[]; approvals=[]; status_events=[]; audit_logs=[]
+    requests=[]; request_lines=[]; approvals=[]; approval_history=[]; status_events=[]; audit_logs=[]
     budget_by_dept={b["department_id"]:b for b in budgets}
     for i in range(1,n["requests"]+1):
         requester=requesters[(i-1)%len(requesters)]
@@ -127,9 +127,21 @@ def make_data(seed, scale):
         for j,role in enumerate(roles,1):
             decision="APPROVED" if i<=min(900,n["pos"]) else ("REJECTED" if request_status=="REJECTED" else "PENDING")
             if i==6: decision="PENDING"
-            approvals.append({"approval_id":f"APR-{i:06d}-{j:02d}","purchase_request_id":pr_id,
-                "approver_role":role,"decision":decision,"decision_date":iso(created+timedelta(days=j),11),
-                "threshold_rule":threshold,"comments":"Reviewed against configured approval matrix"})
+            approval_id=f"APR-{i:06d}-{j:02d}"
+            decision_date=iso(created+timedelta(days=j),11)
+            comments="Reviewed against configured approval matrix"
+            approvals.append({"approval_id":approval_id,"purchase_request_id":pr_id,
+                "approver_role":role,"decision":decision,"decision_date":decision_date,
+                "threshold_rule":threshold,"comments":comments})
+            approval_history.append({"approval_history_id":f"APRH-{len(approval_history)+1:08d}",
+                "approval_id":approval_id,"purchase_request_id":pr_id,"approver_role":role,
+                "prior_decision":"","decision":"PENDING","changed_at":iso(created,9),
+                "actor_role":"SYSTEM","comments":"Approval step created"})
+            if decision!="PENDING":
+                approval_history.append({"approval_history_id":f"APRH-{len(approval_history)+1:08d}",
+                    "approval_id":approval_id,"purchase_request_id":pr_id,"approver_role":role,
+                    "prior_decision":"PENDING","decision":decision,"changed_at":decision_date,
+                    "actor_role":role,"comments":comments})
         status_events.append({"event_id":f"EVT-PR-{i:06d}-01","entity_type":"PURCHASE_REQUEST",
             "entity_id":pr_id,"from_status":"DRAFT","to_status":request_status,
             "event_time":iso(created+timedelta(days=1),12),"actor_role":"PROCESS_OWNER",
@@ -313,7 +325,7 @@ def make_data(seed, scale):
     tables={
       "Department":departments,"Requester":requesters,"Budget":budgets,"Supplier":suppliers,
       "PurchaseRequest":requests,"RequestLine":request_lines,"RFQ":rfqs,"RFQSupplier":rfq_suppliers,
-      "SupplierQuote":quotes,"QuoteLine":quote_lines,"Approval":approvals,"PurchaseOrder":pos,
+      "SupplierQuote":quotes,"QuoteLine":quote_lines,"Approval":approvals,"ApprovalHistory":approval_history,"PurchaseOrder":pos,
       "PurchaseOrderLine":po_lines,"Delivery":deliveries,"BudgetTransaction":budget_transactions,
       "StatusEvent":status_events,"AuditLog":audit_logs
     }
@@ -334,7 +346,8 @@ def create_sqlite(db_path, tables):
       "CREATE TABLE RFQSupplier(rfq_supplier_id TEXT PRIMARY KEY, rfq_id TEXT NOT NULL REFERENCES RFQ, supplier_id TEXT NOT NULL REFERENCES Supplier, invited_at TEXT NOT NULL, response_status TEXT NOT NULL, UNIQUE(rfq_id,supplier_id))",
       "CREATE TABLE SupplierQuote(quote_id TEXT PRIMARY KEY, rfq_id TEXT NOT NULL REFERENCES RFQ, supplier_id TEXT NOT NULL REFERENCES Supplier, quote_date TEXT NOT NULL, valid_until TEXT NOT NULL, currency TEXT NOT NULL, subtotal REAL NOT NULL, tax_amount REAL NOT NULL, freight_amount REAL NOT NULL, landed_total REAL NOT NULL, delivery_days INTEGER NOT NULL, status TEXT NOT NULL, award_rationale TEXT, is_selected INTEGER NOT NULL)",
       "CREATE TABLE QuoteLine(quote_line_id TEXT PRIMARY KEY, quote_id TEXT NOT NULL REFERENCES SupplierQuote, request_line_id TEXT NOT NULL REFERENCES RequestLine, quantity INTEGER NOT NULL, unit_price REAL NOT NULL, line_total REAL NOT NULL)",
-      "CREATE TABLE Approval(approval_id TEXT PRIMARY KEY, purchase_request_id TEXT NOT NULL REFERENCES PurchaseRequest, approver_role TEXT NOT NULL, decision TEXT NOT NULL, decision_date TEXT NOT NULL, threshold_rule TEXT NOT NULL, comments TEXT)",
+      "CREATE TABLE Approval(approval_id TEXT PRIMARY KEY, purchase_request_id TEXT NOT NULL REFERENCES PurchaseRequest, approver_role TEXT NOT NULL, decision TEXT NOT NULL CHECK(decision IN ('APPROVED','REJECTED','PENDING')), decision_date TEXT NOT NULL, threshold_rule TEXT NOT NULL CHECK(threshold_rule IN ('DEPT_ONLY','DEPT_FINANCE','DEPT_FINANCE_EXEC')), comments TEXT)",
+      "CREATE TABLE ApprovalHistory(approval_history_id TEXT PRIMARY KEY, approval_id TEXT NOT NULL REFERENCES Approval, purchase_request_id TEXT NOT NULL REFERENCES PurchaseRequest, approver_role TEXT NOT NULL, prior_decision TEXT CHECK(prior_decision IS NULL OR prior_decision IN ('APPROVED','REJECTED','PENDING')), decision TEXT NOT NULL CHECK(decision IN ('APPROVED','REJECTED','PENDING')), changed_at TEXT NOT NULL, actor_role TEXT NOT NULL, comments TEXT NOT NULL)",
       "CREATE TABLE PurchaseOrder(purchase_order_id TEXT PRIMARY KEY, purchase_request_id TEXT UNIQUE NOT NULL REFERENCES PurchaseRequest, supplier_id TEXT NOT NULL REFERENCES Supplier, rfq_id TEXT REFERENCES RFQ, awarded_quote_id TEXT REFERENCES SupplierQuote, po_date TEXT NOT NULL, currency TEXT NOT NULL, subtotal REAL NOT NULL, tax_amount REAL NOT NULL, freight_amount REAL NOT NULL, po_total REAL NOT NULL, approval_status TEXT NOT NULL, status TEXT NOT NULL, award_rationale TEXT, payment_terms TEXT)",
       "CREATE TABLE PurchaseOrderLine(po_line_id TEXT PRIMARY KEY, purchase_order_id TEXT NOT NULL REFERENCES PurchaseOrder, request_line_id TEXT NOT NULL REFERENCES RequestLine, description TEXT NOT NULL, quantity_ordered INTEGER NOT NULL, unit_price REAL NOT NULL, line_total REAL NOT NULL)",
       "CREATE TABLE Delivery(delivery_id TEXT PRIMARY KEY, purchase_order_id TEXT NOT NULL REFERENCES PurchaseOrder, supplier_id TEXT NOT NULL REFERENCES Supplier, delivery_date TEXT NOT NULL, quantity_ordered INTEGER NOT NULL, quantity_received INTEGER NOT NULL, delivery_status TEXT NOT NULL, inspection_status TEXT NOT NULL, delivery_exception_reason TEXT)",
@@ -343,7 +356,7 @@ def create_sqlite(db_path, tables):
       "CREATE TABLE AuditLog(audit_id TEXT PRIMARY KEY, entity_type TEXT NOT NULL, entity_id TEXT NOT NULL, action TEXT NOT NULL, actor_id TEXT NOT NULL, event_time TEXT NOT NULL, details TEXT)"
     ]
     for sql in ddl: con.execute(sql)
-    for table in ["Department","Requester","Budget","Supplier","PurchaseRequest","RequestLine","RFQ","RFQSupplier","SupplierQuote","QuoteLine","Approval","PurchaseOrder","PurchaseOrderLine","Delivery","BudgetTransaction","StatusEvent","AuditLog"]:
+    for table in ["Department","Requester","Budget","Supplier","PurchaseRequest","RequestLine","RFQ","RFQSupplier","SupplierQuote","QuoteLine","Approval","ApprovalHistory","PurchaseOrder","PurchaseOrderLine","Delivery","BudgetTransaction","StatusEvent","AuditLog"]:
         rows=tables[table]
         if not rows: continue
         cols=list(rows[0]); sql=f"INSERT INTO {table} ({','.join(cols)}) VALUES ({','.join('?' for _ in cols)})"
