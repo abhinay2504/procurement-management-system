@@ -25,3 +25,8 @@ Every business table has an immutable primary key. Foreign keys are declared in 
 
 ## Event history
 StatusEvent and AuditLog are append-only records. Service actions insert new events rather than deleting historical decisions. Approval rows preserve the individual approver's decision and timestamp.
+
+
+## Approval decision history
+
+Approval is the current-state projection for each required approver step. ApprovalHistory is an append-only event table with foreign keys to Approval and PurchaseRequest. It records initial PENDING creation and subsequent decisions with timestamp, actor role, prior decision and comments. Existing queries continue to use Approval; historical decisions are preserved separately.
